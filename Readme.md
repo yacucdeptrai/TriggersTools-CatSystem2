@@ -90,6 +90,9 @@ Common options:
 - `-ext, --extension <.ext>` output extension (`.txt` by default)
 - `-utf8, --utf8` output UTF-8 (`Shift JIS` by default)
 - `-x, --error-level <none|low|high>` stop behavior on errors/warnings
+- `--extract-int <archive.int>` extract all files from an archive
+- `--exe <game.exe>` executable used to derive V_CODE2 for archive decryption
+- `--extract-output <outdir>` output directory for extracted archive files
 
 Examples:
 
@@ -97,6 +100,7 @@ Examples:
 dotnet run --project .\tools\CatDecompiler -- .\input\*.cst -o .\out -utf8
 dotnet run --project .\tools\CatDecompiler -- -i .\input\*.anm .\input\*.fes --output .\out --extension .txt
 dotnet run --project .\tools\CatDecompiler -- -i .\input\scene\*.cst --output .\decompiled --error-level low
+dotnet run --project .\tools\CatDecompiler -- --extract-int .\game\scene.int --exe .\game\Game.exe --extract-output .\scene-extract
 ```
 
 ## End-to-End Terminal Workflow
@@ -107,13 +111,23 @@ dotnet restore .\TriggersTools.CatSystem2.sln
 dotnet build .\tools\CatDecompiler\CatDecompiler.csproj -c Release
 dotnet build .\tools\CatCompiler\CatCompiler.csproj -c Release
 
-# 2) Decompile original scripts
-dotnet run --project .\tools\CatDecompiler -- -i .\input\*.cst --output .\work --utf8
+# 2) Extract scripts from .int archive first (required for many games)
+dotnet run --project .\tools\CatDecompiler -- --extract-int .\game\scene.int --exe .\game\Game.exe --extract-output .\work\scene
 
-# 3) Edit generated text files in .\work
+# 3) Decompile extracted scripts
+dotnet run --project .\tools\CatDecompiler -- -i .\work\scene\*.cst --output .\work\txt --utf8
 
-# 4) Recompile edited text back to binary scripts
-dotnet run --project .\tools\CatCompiler -- --type cst --input .\work\*.txt --output .\rebuilt
+# 4) Edit generated text files in .\work\txt
+
+# 5) Recompile edited text back to binary scripts
+dotnet run --project .\tools\CatCompiler -- --type cst --input .\work\txt\*.txt --output .\rebuilt
+```
+
+### Tested Example: `アマカノ～Second Season～`
+
+```powershell
+dotnet run --project .\tools\CatDecompiler -- --extract-int ".\アマカノ～Second Season～\scene.int" --exe ".\アマカノ～Second Season～\amakano2s.exe" --extract-output ".\tmp-amakano-scene"
+dotnet run --project .\tools\CatDecompiler -- -i ".\tmp-amakano-scene\01_s01_01.cst" ".\tmp-amakano-scene\01_s01_02.cst" --output ".\tmp-amakano-decompiled" --utf8
 ```
 
 ## Run Built Executables Directly
