@@ -1,0 +1,3716 @@
+﻿#01_s01_01
+
+	bg 0 bg99a
+	rdraw 60
+	wait
+	frameon fade 15
+	wait 15
+	se 0 SEc005
+	fesds 0 0 1 date 1
+$str20	「ああ……うん、わかってる。ちゃんと挨拶はする。
+	これから世話になるから……うん、土産も買った」
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_14 48 0
+	wait
+	bg 0 bg29a
+	rwipe bg_white 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+$str20	「ああ……心配しなくていいって、いつものとおりだし。
+	父さんも仕事中、ありがとな」
+
+$str20	「え？　ああ、大丈夫。父さんも栄転なんだから、
+	頑張って……ああ、それじゃ、母さんにもよろしく」
+
+	se 0 SEj012
+$str20	「なんとも……珍しいこともあるもんだ」
+
+	この町に来て、最初の行動は父さんから来た電話を
+	受け取ることだった。
+
+	これから離れて暮らすから、心配してくれた……
+	そういうことだろうか。
+
+$str20	「さて……」
+
+	bgm 0 BGMss05
+	bgm 0 fade 120 0 100
+	さっそく、今日からお世話になる『[夜間瀬町/よませまち]』を見渡す。
+
+	元々隣町に住んでいたから、まるで馴染みのない町
+	というわけじゃない。
+
+	とは言え、ここに来ると言ったら、スキーと初詣ぐらい。
+	他に温泉が有名だけど、そっちはあまり馴染みがない。
+
+$str20	「わかってたけど、見事に雪だなぁ……」
+
+	線路の上は綺麗だけど、駅舎や辺りはまさしく銀世界。
+	隣町からほんの数キロ来ただけで雪の量はケタが変わる。
+
+	とどのつまり、その『ケタ違い』がここなわけだが、
+	この地でお世話になるのだと思うとちょっと感慨深い。
+
+$str20	「……なんて、感慨に浸ってる場合じゃないか」
+
+	昼のうちに、転入届を出す必要があるし、
+	お世話になる『旅館』にも遅くなるわけにはいかない。
+
+	se 0 SEk026
+	ほぼ一本道だったと思うが、一応地図で確認しつつ出発――
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	mpl
+	fg
+	pl
+	bg 0 bg_white
+	rdraw 48
+	wait
+	bg 1 blur 15 15
+	bg 1 pos -458 -9
+	bg 1 e_hon01la
+	rdraw 48
+	wait
+	bg
+	bg 1 pos -458 -9
+	bg 1 e_hon01la
+	rdraw 90
+	frameon fade 15
+	wait 15
+	bgm 0 end 90
+	pcm A_s01_01_001
+女の子	「…………」
+
+	bg 1 m2fade 180 255 0
+	bg 0 e_hon01a
+	思わず目が行った。
+
+	待合室のストーブの前に座っている女の子。
+	年の頃は俺より少し下ぐらいだろうか。
+
+	この辺りの子にしては垢抜けているからだろうか。
+	それとも、雪国に溶け込みそうな冷たい瞳のためか。
+
+$str20	（この辺りの子……じゃ、ないのか？）
+
+	もしかして、誰かを待っている観光客か何かだろうか。
+
+$str20	（それにしては、やけに不満そうだけど……
+	待ち人が来ないのか……？）
+
+	frameoff fade 15
+	wait 15
+	se 0 SEj035
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg29a
+	rwipe bg_white 48 0
+	wait
+	frameon fade 15
+	wait 15
+$str20	「……って、いかんいかん」
+
+	何を油を売ってるんだか。さっさと学園に行こう。
+
+	frameoff fade 15
+	wait 15
+	rpflip 60 290 256 180
+	se 0 SEh023
+	cg
+	mpl
+	fg
+	bg
+	pl
+	bg 0 bg14a
+	wait
+	bgm 0 BGMss05
+	frameon fade 15
+	wait 15
+	se 0 SEd007
+$str20	「おおー、地面が凍結してやがる……昼なのになぁ」
+
+	しかも、日差しで徐々に溶けているからかなり滑りやすい。
+
+$str20	「まさしく『雪国』だな……」
+
+	この辺りの地域はよく『雪国』と宣伝されるけど、
+	都会の人が考える一面雪！　という場所は意外と少ない。
+
+	住んでいた隣町を振り返っても、
+	ここまで雪国らしい場所はそうそうなかった。
+
+$str20	「電車で数駅……別世界だな」
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_01 48 0
+	wait
+	bg 0 bg17a
+	rwipe bg_effect_01 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	雪で覆われた住宅街を通って、商店街を通り抜けると、
+	雪の量は少し減る。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_01 48 0
+	wait
+	bg 0 bg01a
+	rwipe bg_effect_01 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	そうしてさらに歩を進めれば、
+	なかなか風靡な建物が見えてくる。
+
+	この辺りで一番古い建物の一つ……という木造校舎。
+
+	『夜間瀬学園』
+
+	これからお世話になる学園の名前だ。
+
+	確か、この校舎の中に職員室があったはずだから――。
+
+$str20	「……ん？」
+
+	昇降口が閉まっている。
+	休みだから職員用の入口があるんだろうか……。
+
+	frameoff fade 15
+	wait 15
+	bgm 0 end 90
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_black
+	rwipe bg_effect_12 48 0
+	wait
+	frameon fade 15
+	wait 15
+	…………
+
+	……
+
+	ぐるりと校舎を回っても、どうも入口が見つからない。
+
+$str20	「まいったな……」
+
+	私服姿でウロウロしてたら不審者扱いされそうだ。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	bg 0 bg33a
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	se 0 SEd006
+$str20	「お……」
+
+	そう思いつつも裏手に回ると、もう一つ、
+	かなり新しそうな建物がある。
+
+	そういえば学園の案内にも、県内でも指折りの蔵書を誇る
+	新設図書館があると書いてあったから、ここなのだろう。
+
+	se 0 SEd007
+	そしてどうやらこちらは開いている様子。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	bg 0 bg05a
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	bgm 0 BGM01
+	frameon fade 15
+	wait 15
+$str20	「こりゃ……かなり広いな」
+
+	蔵書の多い図書館というから、
+	本だらけで雑然としてるのかと想像していたが……。
+
+	かなり開放感があって、清潔に整然と本が並んでいる。
+	ここなら本も探しやすそうだ。
+
+	さて……話を聞くなら……貸し出しカウンターだろうか。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	mpl
+	fg
+	pl
+	bg 0 bg_white
+	rdraw 48
+	wait
+	bg 1 blur 15 15
+	bg 1 pos -504 -11
+	bg 1 e_yuz01la
+	rdraw 48
+	wait
+	bg
+	bg 1 pos -504 -11
+	bg 1 e_yuz01la
+	bg 0 e_yuz01a
+	rdraw 90
+	frameon fade 15
+	wait 15
+$str20	「おっ……」
+
+	bg 1 m2fade 180 255 0
+	カウンターには本を読んでいる図書委員らしき
+	女子学生がいる。
+
+	物静かそうで……いかにも文学少女って感じだ。
+
+	いいところなのか、かなり集中してるのがすぐわかる。
+
+	……邪魔しちゃ悪いか。
+
+	そのうち本を読み終わるだろうし……。
+
+	――と、思っていたのだが。
+
+	bg 1
+	bg 0 e_yuz01b
+	rdraw 48
+	wait
+	bgm 0 end 90 0 100
+	bgm 1 BGMss03
+	bgm 1 fade 120 0 100
+	pcm C_s01_01_001
+図書委員さん	「…………すぅ」
+
+	ね、寝てる……！？
+
+$str20	（まぁ、今、特に人もいないみたいだしな……）
+
+	本に集中してたから入ってきた俺にも気づいてないだろう。
+	邪魔しちゃ悪いが……ひと言かけるか。
+
+$str20	「ちょっといいか？」
+
+	bg 0 e_yuz01c
+	rdraw 48
+	wait
+	pcm C_s01_01_002
+図書委員さん	「ひゃうゎ！？」\@
+	wait
+	str 310 bg
+	if($str310 == "cg" || $str310 == "mpl") fg 0 quake 5,10,0 5,-10,0 5,0,10 5,0,-10 5,0,0
+	bg 0 quake 5,10,0 5,-10,0 5,0,10 5,0,-10 5,0,0
+	\n
+
+$str20	「あ、ああ……悪い」
+
+	びっくりした女の子は、キョロキョロしてから
+
+	pcm C_s01_01_003
+図書委員さん	「……あ、うぅ……すみみゃしぇん……」
+
+	噛んだ。
+
+	bg 0 e_yuz01d
+	rdraw 48
+	wait
+	pcm C_s01_01_004
+図書委員さん	「あっ、あうぅぅ……」
+
+	恥ずかしかったのか、真っ赤になって震えてる……。
+
+	なんだかちょっと悪いことをした気になってくる。
+
+$str20	「いや、すまん、本の貸し借りじゃなくて、
+	校舎……というか、職員室に用があるんだけど……」
+
+	bg 0 e_yuz01e
+	rdraw 48
+	wait
+	pcm C_s01_01_005
+図書委員さん	「え……？　あ……えっと……」
+
+	しばらく俺を見ていると、
+
+	pcm C_s01_01_006
+図書委員さん	「学生、かいしゅつ……はぅっ！」
+
+	また噛んだ。
+
+	bg 0 e_yuz01d
+	rdraw 48
+	wait
+	pcm C_s01_01_007
+図書委員さん	「うう……」
+
+	噛んだ舌を抑えつつ、ノートを取り出すと。
+
+	se 0 SEh037
+	wait 90
+	eg 2 blend 0
+	eg 2 pos 240 -60
+	eg 2 hitu_yuz_01
+	wait
+	eg 2 m2fade 48 0 255
+	eg 2 m2move 48 120 0
+	『御用でしたら、二階の学生会室へどうぞ』
+
+	そう書いて、見せてくる。
+
+	って筆談！？
+
+	eg 2 m2fade 48 255 0
+	eg 2 move 48 120 -60
+	wait
+	eg 2 stop
+	eg 2
+$str20	「あ、ありがとう……邪魔したな」
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg05a
+	rwipe bg_black 48 0
+	wait
+	frameon fade 15
+	wait 15
+	コクリと頷く彼女に軽く礼を言って二階へ。
+
+	……変わった子もいるもんだな。
+
+	frameoff fade 15
+	wait 15
+	bgm 1 end 90
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_black
+	rwipe bg_effect_12 48 0
+	wait
+	frameon fade 15
+	wait 15
+	なるほど、彼女の言ったとおり、二階に上がれば
+	『学生会室』と書いてある扉がある。
+
+	se 0 SEf001
+$str20	「どなたか、いらっしゃいますか？」
+
+	pcm D_s01_01_001
+女性の声	「はーい。どうぞ」
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	se 0 SEf008
+	bg 0 bg24a
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+$str20	「失礼します」
+
+	新しい建物にあるだけあって、綺麗に整頓されているし、
+	遠くの雪山や、グラウンドまで見渡せる部屋だ。
+
+	そして――
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	eg
+	mpl
+	pl
+	bg 1 bg_white
+	rdraw 48
+	wait
+	bg 1 blur 15 15
+	bg 1 pos -785 -10
+	bg 1 e_rui01la
+	rdraw 48
+	wait
+	bg
+	bg 0 e_rui01f
+	rdraw 90
+	frameon fade 15
+	wait 15
+	bgm 0 BGMss04
+	pcm D_s01_01_002
+銀髪美女	「ＨＥＬＬＯ！」
+
+$str20	「…………」
+
+	銀髪の美女がいた。
+
+	bg 0 e_rui01e
+	rdraw 48
+	wait
+	pcm D_s01_01_003
+銀髪美女	「はろー？」
+
+$str20	「は、はろー？　……って、ノックした時、
+	普通に話してましたよね！
+	アイキャンノットスピークイングリッシュ！！」
+
+	ごくごく平均的な学園生では、コミュニケーション能力
+	なんて、たいしたことはない。
+
+	bg 0 e_rui01g
+	rdraw 30
+	wait
+	pcm D_s01_01_004
+銀髪美女	「うん、大丈夫よ、ちゃーんとスピーク日本語、話せるよ♪」
+
+	よかった、大丈夫だ。
+	思った以上に流暢な日本語が帰ってきた。
+
+$str20	「うまいですね、日本語」
+
+	bg 0 e_rui01h
+	rdraw 30
+	wait
+	pcm D_s01_01_005
+銀髪美女	「センキュー。こう見えて得意だから安心して。
+	キミも日本語、とっても上手よ」
+
+$str20	「まぁ、生まれも育ちもこの国ですから」
+
+	bg 0 e_rui01e
+	rdraw 30
+	wait
+	pcm D_s01_01_006
+銀髪美女	「うん……そうだよね」
+
+	bg 0 e_rui01d
+	rdraw 30
+	wait
+	pcm D_s01_01_007
+涙香	「学生会長の『[硯川/すずりかわ]・ユーフラジー・[涙香/るいか]』よ。
+	はじめまして、ナイストゥミーチュー♪」
+
+$str20	「な、ナイストミーチュー……」
+
+	ノリが軽いというか、ノリの良い人だ。
+	外国人ならではなのか……。
+
+	……と言っても、名前から察するにハーフっぽいけど。
+
+	pcm D_s01_01_008
+涙香	「あなたの名前は？」
+
+$str20	「俺は――」
+
+	frameoff fade 15
+	wait 15
+	fex sel inputtxt 101
+	fex end
+	bg 0 e_rui01d
+	frameon fade 15
+	wait 15
+	よし、これでいいだろう。
+
+$str20	「$str10$str20です。硯川……ユーフラジーってことは、
+	会長はハーフですか？」
+
+	疑問はすぐにぶつけてみる。
+
+	pl
+	cg
+	mpl
+	fg
+	bg
+	eg
+	fg
+	bg 0 e_rui01b
+	rdraw 30
+	wait
+	pcm D_s01_01_009
+涙香	「おしいっ、でもそんなところね。よろしく」
+
+	そう手を差し出されるので、握手。
+
+	フレンドリーなのは元々なのか、
+	それとも外国文化の影響故か。
+
+	bg 0 e_rui01a
+	rdraw 30
+	wait
+	pcm D_s01_01_010
+涙香	「もしかしなくてもキミ、転入届を出しに来た学生？」
+
+$str20	「ええ、そうです。職員室へ行こうと思ったんだけど、
+	閉まってたんでどうしようかと思って」
+
+	bg 0 e_rui01c
+	rdraw 30
+	wait
+	pcm D_s01_01_011
+涙香	「なるほど～、そういうことかぁ……」
+
+$str20	「そういうこと？」
+
+	bg 0 e_rui01d
+	rdraw 30
+	wait
+	pcm D_s01_01_012
+涙香	「転入届は、私が受け取ることになってたの。
+	それをキミに連絡しないなんて、先生も適当ね」
+
+	bg 0 e_rui01c
+	rdraw 30
+	wait
+$str20	「適当って……学生が転入届を受け取るっていいんですか？」
+
+	bg 0 e_rui01a
+	rdraw 30
+	wait
+	pcm D_s01_01_013
+涙香	「この田舎に、キミの転入を使って何かしようって人は
+	いないでしょう？」
+
+	bg 0 e_rui01g
+	rdraw 30
+	wait
+	pcm D_s01_01_014
+涙香	「そ・れ・にー♪　私はティーチャーから、
+	ホットに、信頼されてるのよ♪」
+
+	se 0 SEe023
+	その『熱い』は違うんじゃないか……？
+
+$str20	「なるほど……わかりました。
+	田舎のおおらかさってことであってます？」
+
+	bg 0 e_rui01h
+	rdraw 30
+	wait
+	pcm D_s01_01_015
+涙香	「うん、あってます。それに今日は……」
+
+	bg 0 e_rui01e
+	rdraw 30
+	wait
+$str20	「今日は？」
+
+	bg 0 e_rui01a
+	rdraw 30
+	wait
+	pcm D_s01_01_016
+涙香	「うぅん、こっちの話。さ、転入届を確認するから
+	見せてもらえる？」
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg24a
+	rwipe bg_black 48 0
+	wait
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,a,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	frameon fade 15
+	wait 15
+	気になる……が、ひとまず転入届を渡す。
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,t,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_017
+涙香	「名前は……さっき聞いたし……住所は……\n\@
+	wait 240
+	#875 = 3 
+	#876 = 2 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik02m,$str303,$str306,1,0,a,$str307,$str308,$str305  
+	fg 1 struik02maikon,0  
+	rdraw 20
+	そうそう、『[縁嬉/えんぎ]』ね」
+
+$str20	「ええ、温泉街の少し外れの方にある旅館です」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,g,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_018
+涙香	「うん、知ってる。\@
+	wait
+	mpl 1 arc 30 180 360 0 15
+	fg 1 arc 30 180 360 0 15
+	wait
+	老夫婦二人で切り盛りしてるところね。\n\@
+	wait 200
+	#875 = 3 
+	#876 = 2 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik02m,$str303,$str306,1,0,a,$str307,$str308,$str305  
+	fg 1 struik02maikon,0  
+	rdraw 20
+	繁盛もしてるし今年からは……\@
+	wait 165
+	#875 = 3 
+	#876 = 2 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik02m,$str303,$str306,1,0,l,$str307,$str308,$str305  
+	fg 1 struik02maikon,0  
+	rdraw 20
+	ま、それもいいか」
+
+$str20	「……？」
+
+	確かに、お世話になるところは老夫婦が経営していて……
+	あ、でもお孫さんもいるとか聞いたような……。
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,g,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_019
+涙香	「ふふっ、それは行ってからのお楽しみって感じかしら♪」\@
+	wait
+	mpl 1 arc 10 0 180 0 20
+	fg 1 arc 10 0 180 0 20
+	wait
+	\n
+
+$str20	「さっきからやけに含みますね」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,a,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_020
+涙香	「そ。田舎は不思議でいっぱい……っと。書類は問題なし。
+	明日からこの夜間瀬学園の２年生だね、よろしく」\@
+	wait
+	mpl 1 arc 20 180 360 0 15
+	fg 1 arc 20 180 360 0 15
+	wait
+	\b
+
+	トントンと書類をまとめて、
+	クリアファイルに入れつつ会長。
+
+$str20	「こちらこそよろしくお願いします。
+	その言い方だと、会長って、もしかして３年ですか？」
+
+	同年代にしては落ち着いているようにも見えるし、
+	かなり大人びている。
+
+	……まぁ、余程のことがない限り１歳差なんだろうけど。
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,g,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_021
+涙香	「ザッツライト。他の学園じゃ、今の時期は２年生に
+	引き継いでるらしいから、珍しい？」
+
+$str20	「そうですね……ま、安心はしましたけど」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,0,0,y,$str307,$str308,$str305 @ @
+	fg 1 struik01maikon,6 @ @
+	rdraw 20
+	pcm D_s01_01_022
+涙香	「安心？　私が３年で？」\@
+	fg 1 mcarc 120 90 450 15 5
+	\n
+
+$str20	「ええ、同年代でそんなに大人びた態度を身につけてたら、
+	俺も立つ瀬がないので」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,i,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_023
+涙香	「あらら……でも一年後にはこのくらいに
+	あなたもなってないと困るなぁ……♪」
+
+	一年後の自分か……。
+
+	引っ越してきたばかりでそれは
+	まるで想像の中にはないものだが……。
+
+$str20	「何にしろ、書類の受け取りありがとうございます。
+	結果的に、フラフラしなくて済んだんで」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,a,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_024
+涙香	「うん、明日はもう登校だから遅刻しちゃだめよ？」\@
+	wait
+	mpl 1 arc 20 180 360 0 15
+	fg 1 arc 20 180 360 0 15
+	wait
+	\b
+
+$str20	「もちろんです。それじゃ、俺はこれで――」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,d,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_025
+涙香	「あ、ちょっと待って」
+
+	se 0 SEf011
+	会長が窓を開ける。 \@
+	wait
+	mpl 1 arc 30 180 0 -(60/2) 0
+	mpl 1 m2fade 30 255 0
+	fg 1 arc 30 180 0 -(60/2) 0
+	fg 1 m2fade 30 255 0
+	wait
+	mpl 1
+	fg 1
+	\n
+
+	se 0 SEc001
+	中と外の寒暖の差が、風を生んで会長のポニーテイルを
+	大きく揺らした。
+
+	それを気にした様子もなく『んー……』と手を伸ばして、
+	窓の付近に積もっていた雪を雪玉にして。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	mpl
+	fg
+	eg 0 $ffffffff
+	eg 0 m2fade 120 255 0
+	bg 1 pos -785 -10
+	bg 1 e_rui01lg
+	rdraw 48
+	wait
+	frameon fade 15
+	wait 15
+	pcm D_s01_01_026
+涙香	「ハイ、パス！」
+
+	そう言って投げてくる。
+
+	bgm 0 end 90
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg24a
+	rwipe bg_black 48 0
+	wait
+	frameon fade 15
+	wait 15
+$str20	「あ」
+
+	se 0 SEi018
+	――が、あさっての方向におちて床にベチャ。
+
+	#875 = 3 
+	#876 = 2 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	fw 0 faruik02,$str303,0,1,0,d,$str307,$str308,$str305,0
+	pcm D_s01_01_027
+涙香	「…………」
+
+	fw 0
+$str20	「…………」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01m,$str303,$str306,1,0,t,$str307,$str308,$str305  
+	fg 1 struik01maikon,0  
+	rdraw 20
+	pcm D_s01_01_028
+涙香	「…………」
+
+	se 0 SEd014
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01l,$str303,$str306,1,0,t,$str307,$str308,$str305  
+	fg 1 struik01laikon,0  
+	rdraw 20
+	つかつかつかと歩いてきて。
+
+	雪玉を拾い上げ。\@
+	wait
+	mpl 1 arc 40 180 360 0 25
+	fg 1 arc 40 180 360 0 25
+	wait
+	\n
+
+	bgm 0 fade 120 0 100
+	bgm 0 BGM03
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01l,$str303,$str306,1,0,k,$str307,$str308,$str305  
+	fg 1 struik01laikon,0  
+	rdraw 20
+	pcm D_s01_01_029
+涙香	「ていく２！」
+
+$str20	「は、はい？」
+
+	そう言いながら、また窓際で雪玉を作ると、
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01l,$str303,$str306,1,0,g,$str307,$str308,$str305  
+	fg 1 struik01laikon,0  
+	rdraw 20
+	pcm D_s01_01_030
+涙香	「はい、どうぞ」
+
+	今度は近寄ってきて、着実に手渡し。
+
+$str20	「あ、ああ……どうも」
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01l,$str303,$str306,1,0,k,$str307,$str308,$str305  
+	fg 1 struik01laikon,0  
+	rdraw 20
+	pcm D_s01_01_031
+涙香	「えーっと、だからね」
+
+	受け取った俺に、そう照れたように苦笑すると。
+
+	#875 = 3 
+	#876 = 1 
+	str 303 c
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 struik01l,$str303,$str306,1,0,f,$str307,$str308,$str305  
+	fg 1 struik01laikon,0  
+	rdraw 20
+	pcm D_s01_01_032
+涙香	「ウエルカム、雪国！」
+
+	そう、笑顔で言ってくれるのだった。
+
+	frameoff fade 15
+	wait 15
+	bgm 0 end 90
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_06 48 0
+	wait
+	bg 0 bg01a
+	rwipe bg_effect_06 48 0
+	wait
+	wait
+	bgm 0 BGMss05
+	frameon fade 15
+	wait 15
+	転入届も出したので、校門を出てまた商店街へ。
+
+	確か、商店街とほぼ平行になるような形で
+	温泉街は伸びていたはず。
+
+$str20	「旅館か……」
+
+	今日からお世話になる場所。
+	父さんの古い知り合いの旅館らしいが……。
+
+$str20	「ちゃんと、俺も役に立てればいいけどな……」
+
+	接客やバイトはやってきたから、その経験が活かせれば
+	……と思うが、宿となればまた違ったこともあるだろう。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_06 48 0
+	wait
+	bg 0 bg17a
+	rwipe bg_effect_06 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	商店街に入って、温泉街に向かう道を探す。
+
+	以前、旅館へ挨拶に行った時は、まだ雪がなかったけど、
+	今はどこもかしこも雪が見える。
+
+$str20	「あれ……こっちじゃなかったか……？」
+
+	どこかに温泉街に入る細道があったと思ったが……。
+
+	雪があると印象が違って見えてしまって
+	……さて、どうするかな。
+
+	pcm B_s01_01_001
+女の子の声	「わっ、止まってくださーーーい！！」
+
+	se 0 SEk036
+$str20	「え……？」
+
+	目の前を通り抜けたのは、無人の車いす。
+
+$str20	「車いす？」
+
+	なんで、こんなところに……？
+
+	se 0 SEh007
+$str20	「――っと」
+
+	手を伸ばして、車いすを止める。
+
+	なるほど……この辺りは平地に見えていたけど、
+	意外と傾斜があるんだな。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 g
+	fesds 3 1 0 stcheck 0 
+	fw 0 fakana01,$str303,0,1,e,1,$str307,0
+	pcm B_s01_01_002
+女の子	「あり、がとう、ございます……！」
+
+	fw 0
+	se 0 SEh031
+	振り向けば、杖をついて歩いてくる女の子。
+
+	どうやらおぼつかないものの、焦ったように歩いている。
+
+$str20	「いや、ゆっくりでいいよ」
+
+	道は石畳になっているため、杖をつくには
+	少々気になる凹凸がある。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 g
+	fesds 3 1 0 stcheck 0 
+	fw 0 fakana01,$str303,0,1,c,1,$str307,0
+	pcm B_s01_01_003
+女の子	「はい、ごめんなさ……きゃっ！？」
+
+	fw 0
+	frameoff fade 15
+	wait 15
+	bg
+	eg 0 $ffffffff
+	eg 0 m2fade 120 255 0
+	bg 1 pos -327 -225
+	bg 1 e_kan01la
+	rdraw 48
+	wait
+	se 0 SEg001
+	wait 90
+	wait
+	bg 1 m2fade 180 255 0
+	bg 0 e_kan01a
+	bgm 0 end 90
+	frameon fade 15
+	wait 15
+$str20	「危なっ！！」
+
+	案の定、バランスを崩した彼女にあわてて手を伸ばす。
+
+	pcm B_s01_01_004
+女の子	「うぅ……」
+
+	間一髪しっかり抱きとめる。
+
+$str20	「大丈夫か？」
+
+	軽いな……。
+
+	俺より少し年下だろうか。
+
+	ふわふわで豊かな髪の毛が印象的な女の子だ。
+
+	bg 0 e_kan01b
+	rdraw 30
+	wait
+	bgm 0 BGMss02
+	pcm B_s01_01_005
+女の子	「え……？　あ……大丈夫です！」
+
+	見開いた瞳。
+
+	綺麗な目だな……。
+
+	思わずそんな場違いなことを思ってしまう。
+
+	bg 0 e_kan01c
+	rdraw 30
+	wait
+	pcm B_s01_01_006
+女の子	「ごめんなさい……焦ってしまって……」
+
+$str20	「いや、大事ないならなによりだ」
+
+	困ったように笑う彼女にこっちも笑いかけてやる。
+
+$str20	「えっと、この車いすに座る……ってことでいいのか？」
+
+	車いすを引き寄せて聞いてみる。
+
+	pcm B_s01_01_007
+女の子	「はい、ありがとうございます」
+
+	丁寧な口調はなんというか、お嬢さまって感じだろうか。
+
+	田舎にきた足の不自由な深窓の令嬢……なんて、
+	ベタベタな物語のヒロインみたいな話だ。
+
+$str20	「それじゃ、ゆっくり座って」
+
+	車いすを彼女の後ろにもってくると、
+	脇にあるブレーキをかける。
+
+	bg 0 e_kan01b
+	rdraw 30
+	wait
+	pcm B_s01_01_008
+女の子	「あ……助かります」
+
+	ブレーキをかけた俺にちょっと驚きつつも、
+	手慣れた様子で車いすに座る女の子。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_black 24 0
+	wait
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	bg 0 bg17a
+	rwipe bg_effect_01 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	pcm B_s01_01_009
+女の子	「ご迷惑おかけしました。
+	ブレーキをちゃんとかけないといけませんね」
+
+$str20	「なぁに、無事でなにより。どこかに行く途中？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_010
+女の子	「はい、買い物が済んだので、家に帰るところでした。
+	あなたは……旅行にきた方……でしょうか？」
+
+	なるほど、彼女の言うとおり、手押しハンドルのところに、
+	ビニール袋がかけてある。
+
+$str20	「『縁嬉』って旅館に向かうところなんだけど……。
+	ちょっと迷っていてな」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,d,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_011
+女の子	「縁嬉……ですか……？　\@
+	wait 120
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	はい♪　私もそちらに帰るので、
+	よろしければご一緒しませんか？」
+
+$str20	「いいのか？　そりゃ助かる」
+
+	bg 1 pos -354 -311
+	bg 1 bg17La
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03l,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03laikon,0  
+	rwipe bg_effect_04 48
+	しゃがんで彼女を見上げる。
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03l,$str303,$str306,1,d,0,$str307  
+	fg 1 stkana03laikon,0  
+	rdraw 20
+	pcm B_s01_01_012
+女の子	「あ……いえ、お気になさらないでください。
+	私もすぐのところなので」
+
+$str20	「よし、それじゃ、車いす押していっていいか？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03l,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03laikon,0  
+	rdraw 20
+	pcm B_s01_01_013
+女の子	「はい、助かります。あ……荷物を膝に置きますね」
+
+	bg 1
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rwipe bg_effect_03 48
+	そう言って、女の子は器用にハンドルから袋を移動。
+
+$str20	「ああ、それじゃ、押すからな」
+
+	確認をとってから、車いすを押していく。
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,d,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_014
+女の子	「……車いすのこと、ご存知なんですか？」
+
+	驚きつつも見上げてくる。
+
+$str20	「ん？　ああ、以前バイトしててさ、その時の上司が
+	車いすでさ、色々教えてくれたんだ」
+
+$str20	「話すときは目線をあわせろ、お節介になる時もあるから、
+	ちゃんと聞いてから手伝ってやれって」
+
+	まさか、こんなに早く役立つとは思わなかったけど。
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_015
+女の子	「そうでしたか。それでは助かってしまいますね♪」
+
+$str20	「ああ、助かってしまうな」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_016
+女の子	「ふふっ♪　そうですね」
+
+	俺がオウム返しに頷けば、ころころ笑ってくれる。
+	話しやすい子だ。
+
+$str20	「地元の人？　雪国で車いすってのは大変だよな……」
+
+	商店街ならまだ地面が見えているからいいが、
+	雪道で車いすを動かすとなれば、人の手が必要だろう。
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_017
+女の子	「皆さまに助けて頂いてますから、
+	そこまで不自由はありませんよ」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,m,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_018
+女の子	「それに、ここの温泉は足にも効くので、
+	リハビリを兼ねて滞在しているのです」
+
+$str20	「そっか、それじゃリハビリ頑張っているんだな」
+
+	先ほども、杖では歩いていたし、
+	その効果が出てるということだろうか。
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,i,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_019
+女の子	「頑張って……いるといいのですけれど。\n\@
+	wait 240
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	あっ、そうそう、まだお名前を聞いていませんでしたね」
+
+$str20	「俺は$str10$str20。今日、こっちに引っ越してきたんだ」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,d,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_020
+奏	「ああ……お引っ越しされてきた方なのですね。
+	私は『[沓野奏/くつのかなで]』です。夜間瀬学園に転入ですか？」
+
+$str20	「ああ、明日から２年でお世話になるよ。
+	沓野さんも、同じ学園？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_021
+奏	「はい♪　私は１年なので、先輩ですね。後輩ですから、
+	苗字やさん付けなんて、ちょっと照れてしまいます」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,s,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_022
+奏	「苗字だと紛らわしくなりますから……♪」
+
+$str20	「え？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_023
+奏	「いえいえ、なんでもありません……あっ、そこの角を
+	曲がっていただければ、温泉街への近道です」
+
+$str20	「ああ、わかった。それじゃ……奏ちゃん、でいいのか」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_024
+奏	「はい♪　よろしくお願いします」
+
+	紛らわしくなる……って、この辺は
+	『沓野』って苗字が多いんだろうか……。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_01 48 0
+	wait
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,t,0,$str307  
+	fg 1 stkana03maikon,0  
+	bg 0 bg15a
+	rwipe bg_effect_01 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	pcm B_s01_01_025
+奏	「雪国の長い裏路地を越えるとそこは……」
+
+$str20	「温泉街だった……か？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_026
+奏	「はい、そうですね♪」
+
+	言うほど長くもない路地ではあるが、確かに抜けると別世界。
+
+$str20	「やっぱり雰囲気いいよなぁ」
+
+	俺自身はスキー場ばかり行ってたけど、
+	夜間瀬町に来た観光客の多くが訪れる温泉街。
+
+	昔ながらの家屋が並ぶ町並みは、商店街と違って渋くも、
+	ほっとするような景観だ。
+
+$str20	「沓……と、奏ちゃんも、温泉街に住んでいるのか？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_027
+奏	「はい、祖父母の家に居候しています」
+
+$str20	「そっか。俺もこれから温泉街の旅館にお世話になるんだ」
+	案外近くに住むことになるかもな」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_028
+奏	「ふふっ、『縁嬉』ならそうかもしれませんね……。
+	旅館で寝泊まりなんてなんだかすごいですよね。
+	先輩はかなりの大富豪さま……？」
+
+$str20	「まさか、下宿だよ。手伝いを条件に安くしてもらったし。
+	大富豪なんてトランプでしかなったことないな」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_029
+奏	「あはっ、確かに大富豪になるならトランプですよね」
+
+$str20	「そういうこと。俺の世話になる縁嬉って旅館は
+	じいちゃんとばあちゃん二人で切り盛りしてるそうなんだ」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_030
+奏	「そうなんですね。私の家もお祖父さまとお祖母さまで
+	切り盛りしている旅館なんです」
+
+$str20	「へぇ、奏ちゃんの家も旅館か。
+	それじゃ、この辺じゃそういう家が多いんだな」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_031
+奏	「もしかして、その家はお孫さんも一緒に暮らしているのでは
+	ないでしょうか？」
+
+$str20	「ん……そういえば、そんな話もきいたような……
+	俺の年下らしい……けど……」
+
+	……年下。
+
+	祖父母と暮らすお孫さん。
+
+	……って、ちょっと待て。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_01 48 0
+	wait
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	bg 0 bg19a
+	rwipe bg_effect_01 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	pcm B_s01_01_032
+奏	「着きましたよ」
+
+	そう言うと、奏ちゃんは自分で車いすを動かして、
+	俺に振り返る。
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_033
+奏	「わざわざ我が家まで送っていただいて、
+	ありがとうございます」
+
+$str20	「我が家って、もしかして……？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_034
+奏	「はい♪　ようこそ『縁嬉』へ。
+	私、当旅館の女将と板前の孫、沓野奏と申します」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,x,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	そう言って、車いすの少女はいたずらっぽく
+	ウインクをするのだった。
+
+	frameoff fade 15
+	wait 15
+	bgm 0 end 90
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_11 48 0
+	wait
+	se 0 SEf006
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	bg 0 bg20a
+	rwipe bg_effect_11 48 0
+	wait
+	wait
+	bgm 0 BGMss05
+	frameon fade 15
+	wait 15
+	pcm B_s01_01_035
+奏	「お祖母さま、お祖父さま、参られましたよ」
+
+	旅館のロビーに入ると、奏ちゃんは入口のマットと雑巾で
+	タイヤを拭いて、フロント奥に声をかける。
+
+$str20	「まさか、孫だったとはな……」
+
+	後ろから入りつつ、こっちは苦笑いをするしかない。
+
+$str20	「とっくにご存知だったのか？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_036
+奏	「名前を聞いてびっくりしてしまいました。
+	まさか、今日から一緒に暮らす方に助けられるなんて」
+
+	奏ちゃんはクスクス笑いつつも、平然としたもの。
+
+	見た目で車いすの嬢さま……なんて少し思っていたが、
+	どうしてなかなかのしたたか者だ。
+
+$str20	（……ま、自己紹介が省けたと思うか）
+
+	そんなことを思っていると、奥から和服に身を包んだ
+	おばあさんと同じく和装のおじいさんがやってくる。
+
+	#875 = 1 
+	#876 = 3 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm YD_s01_01_001
+祖母	「ようこそいらっしゃいました。
+	奏さんと一緒なんて……よくわかりましたね」
+
+$str20	「偶然が重なって……ですけれど。
+	今日からよろしくお願いします」
+
+	pcm ZD_s01_01_001
+祖父	「ああ、あんちゃ、よく来たな。
+	これから、我が家と思ってくれていいからな」
+
+$str20	「はい、ありがとうございます。お二人こそ、
+	俺のできることなら何でもやりますので、言ってください」
+
+	pcm YD_s01_01_002
+祖母	「ええ、男手はいてくれると助かりますからねぇ……」
+
+	この二人とは一度挨拶もしている。
+
+	なるほど、確かに考えてみれば、おばあさんと
+	奏ちゃんの雰囲気はどこか似てるかもしれない。
+
+	pcm ZD_s01_01_002
+祖父	「まぁ、細かいことは後で話すとして、あんちゃの部屋は
+	二階の一番奥だ。荷物も届いてるから片付けてくるといい」
+
+	そんな言葉に頷いて、さっそく部屋に向かうことにする。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	bg 0 bg22a
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+$str20	「こりゃ、もったいないぐらい、いい部屋だな……」
+
+	二階の部屋は、外を見ればきれいな温泉街を望める
+	旅館の一室だ。こたつをはじめ家具もすでに置いてある。
+
+	片付けと言っても、俺の荷物はたいしてあるわけではなく、
+	私服や制服に日用品と本ぐらい。
+
+	この期にさっぱりして出てきたものだから身軽なものだ。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	fw 0 fakana01,$str303,0,1,a,1,$str307,0
+	pcm B_s01_01_037
+奏	「入ってもよろしいでしょうか？」
+
+	fw 0
+$str20	「ああ、ほとんど片付けも終わったから大丈夫」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	mpl 1 pos 512+120
+	mpl 1 arc 60 180 0 -(120/2) 0
+	mpl 1 fade 60 0 255
+	fg 1 pos 512+120
+	fg 1 arc 60 180 0 -(120/2) 0
+	fg 1 fade 60 0 255
+	rdraw 60
+	そう答えると、奏ちゃんが板の間のところまで、
+	車いすで入ってくる。
+
+	pcm B_s01_01_038
+奏	「それでしたら、下でお祖母さまたちと一緒に、
+	お茶を飲みませんか？」
+
+$str20	「ああ、わざわざありがとな……ってあれ？
+	二階にどうやって上がってきたんだ？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_039
+奏	「ああ、実は裏手に小さいエレベーターがありまして。
+	大工の方が見た目が旅館に馴染むよう作ってくれました」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,m,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_040
+奏	「年齢層の高いお客さまも多いということもあって
+	私が住む際に、思い切って増設してくれたんです」
+
+$str20	「なるほど……確かに、その方がいいかもな。
+	ずっと住んでるわけじゃないのか？」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_041
+奏	「はい、夜間瀬学園に入学する時に引っ越してきたんです。
+	お父さまやお母さまは別のところで働いています」
+
+$str20	「それじゃ、俺とおんなじだな」
+
+	#875 = 1 
+	#876 = 3 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana03maikon,0  
+	rdraw 20
+	pcm B_s01_01_042
+奏	「おんなじです♪」
+
+	そんな話をしつつ。下へ降りる。
+
+	frameoff fade 15
+	wait 15
+	bgm 0 end 90
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	#875 = 1 
+	#876 = 3 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana03m,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana03maikon,0  
+	bg 0 bg21a
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	bgm 0 BGM01
+	frameon fade 15
+	wait 15
+	やってきたのは、ロビーのフロントの奥にある部屋。
+
+	どうやらここは居間に当たる場所で、奏ちゃんたち家族が
+	食事や宿の管理をするいわゆる管理人室らしい。
+
+	pcm B_s01_01_043
+奏	「どうぞ、座ってください」
+
+	そう案内すると、奏ちゃんもひょいっとこたつの椅子に
+	車いすから移る。
+
+	cg
+	mpl
+	fg
+	bg 1 pos -360 -178
+	bg 1 bg21La
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana01laikon,0  
+	rwipe bg_effect_07 48
+	どうやら椅子は、回転するようになっていて、足の不自由な
+	奏ちゃんでも座りやすいようになっているようだ。
+
+$str20	「うまいもんだな」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,m,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_044
+奏	「この生活もそれなりに長いですから♪」
+
+	その言葉通り、手慣れた様子で茶菓子と緑茶の準備。
+
+	se 0 SEj007
+	この辺りの人は『お茶飲み』と称してお茶をよく飲むから、
+	そこはあまり驚くところでもない。
+
+	pcm YD_s01_01_003
+祖母	「あら、片付けは終わりましたか？」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	奏ちゃんからお茶を受け取ると、奏ちゃんのおじいさんと
+	おばあさんもやってくる。
+
+$str20	「はい、女将さん。とてもいい部屋をありがとうございます」
+
+	pcm YD_s01_01_004
+祖母	「まぁっ『女将さん』だなんて、他人行儀な呼び方しなくて
+	いいのですよ」
+
+	pcm ZD_s01_01_003
+祖父	「そうそう、おれのことも『板前さん』とでも
+	呼ぶつもりかい？」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,i,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	そう言いながら、野沢菜漬けを持ってきたおじいさん。
+	この漬物はソバと並んで地域の名産品だ。
+
+$str20	「だったら……ばあちゃん、じいちゃん……で、
+	いいですか？」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	なんだかその呼び名は……少し照れくさくもある。
+
+	pcm ZD_s01_01_004
+祖父	「ああ。言葉遣いも、そんなに気にしなくてかまわんよ。
+	まぁ、うちはばあさんも奏ちゃんも丁寧ではあるがね」
+
+$str20	「話し方は……考えさせてください」
+
+	まだまだ知り合って間もない人たちだけに、
+	距離のとり方というのもまた難しいものだ。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,f,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_045
+奏	「ふふっ、お祖父さまもお祖母さまも新しいお孫さんが、
+	出来たということでしょうか？」
+
+	pcm YD_s01_01_005
+祖母	「そうね、男の孫は初めてだから楽しみですよ」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_046
+奏	「そうすると……ふふっ、私にも従兄妹のお兄さまが
+	できたということでしょうか……？」
+
+	楽しげに奏ちゃんも俺を見上げてくる。
+
+$str20	「そのくらいの気持ちでいてもらえると助かるな」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,s,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_047
+奏	「はい、お任せくださいっ♪」
+
+	どうやら同居人のお孫さんは友好的に接してくれそうだ。
+	正直、かなりホッとする。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+$str20	「ところで、お世話になるにあたって、手伝いをする。
+	という話だったんですが、どんな内容になるんです？」
+
+	少し渋めのお茶を一口飲んでから聞いてみる。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,a,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm YD_s01_01_006
+祖母	「ええ、旅館の手伝いになります。知っての通り、縁嬉は、
+	私とこの人と、奏さんの手伝いで営んでいます」
+
+	pcm ZD_s01_01_005
+祖父	「今は常連さんや、どうしてもってお客さん相手にやってる。
+	別にそのやり方を変えるわけじゃない」
+
+	pcm YD_s01_01_007
+祖母	「満室とまでは行きませんがお客さまはほぼいつも、
+	お泊りになられている状態ではあります」
+
+	pcm YD_s01_01_008
+祖母	「あまり広げて今までのお客さまをがっかりさせるのは、
+	いけませんからね」
+
+	pcm ZD_s01_01_006
+祖父	「とは言え、やはり寄る年波には勝てないこともあるし、
+	体力仕事をお願いしたいと思っている」
+
+$str20	「体力仕事ってことは掃除とか、お客さんの案内とかですか？」
+
+	pcm YD_s01_01_009
+祖母	「ええ、今の時期は雪かきも入ってきますね。
+	それに夜の戸締まりなどもしていただければと思います」
+
+$str20	「夜の……ああ、夜に外に出るお客さんもいそうですからね」
+
+	pcm YD_s01_01_010
+祖母	「ええ、１２時には閉めると言う話はしてありますので。
+	細かいことは実際働きながら覚えて下さいな」
+
+$str20	「わかりました。初心者なのでご迷惑おかけするかも
+	しれませんが、早く覚えようと思います」
+
+	pcm ZD_s01_01_007
+祖父	「ああ、あんまり気張らずやってくれ」
+
+$str20	「はい！　奏ちゃんも色々教えてくれると助かるよ」
+
+	そうお茶をすすっている奏ちゃんにもお願いすれば。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,m,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_048
+奏	「もちろんです、私は厳しいですよー♪
+	先輩はついてこられますか？」
+
+$str20	「はは、お手柔らかに頼むよ」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,g,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_049
+奏	「えへへ……はいっ、色々手伝ってもらえればって、
+	思いますから♪」
+
+	だいたい話もまとまっただろうし、後は……。
+
+$str20	「ああ、そうそう、お土産を買ってきたんだ。
+	ちょっと取って――」
+
+	こたつから立ち上がり、はたと気づく。
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,d,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	se 0 SEe069
+	pcm B_s01_01_050
+奏	「？　どうしました？」
+
+$str20	「俺、紙袋って……持ってなかったよな……？」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,c,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_051
+奏	「あ……そういえば……確かリュックだけでしたよね……？」
+
+$str20	「あ……駅で電話をした時にすぐ側に置いて……
+	やばい、忘れてきた……ちょっと、取ってくる！」
+
+	#875 = 1 
+	#876 = 1 
+	str 303 f
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 stkana01l,$str303,$str306,1,i,0,$str307  
+	fg 1 stkana01laikon,0  
+	rdraw 20
+	pcm B_s01_01_052
+奏	「は、はい、お気をつけていってきてくださいー！」
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	se 0 SEf006
+	bg 0 bg19a
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	そんな言葉を背中で受けながら外へ出る。
+
+	まったく思い出さなかったのは、マヌケな話だが……。
+
+	さすがにもう、誰かが持っていってるだろうな……
+	そんなことを思いつつも、駅まで走って行くのだった。
+
+	se 0 SEd010
+	frameoff fade 15
+	wait 15
+	bgm 0 end 90
+	rpflip 60 290 256 180
+	pl
+	cg
+	mpl
+	fg
+	bg
+	eg
+	bg 0 bg29a
+	wait
+	se 0 end 30
+	bgm 0 BGM02
+	frameon fade 15
+	wait 15
+$str20	「ちゃんとあった……残ってた……」
+
+	今度は気をつけてねー。
+	と駅員のお兄さんから紙袋を受け取る。
+
+	聞いた話だと、女の子が届けてくれたらしい。
+
+$str20	「ホントに助かったなぁ……」
+
+	田舎だから……というわけでもないだろうけど、
+	人の善意はありがたい。
+
+	ホッとしつつ、帰ろうと駅を出ようとしたところで、
+	ふと、目がとまる。
+
+	frameoff fade 15
+	wait 15
+	bg
+	eg 0 $ffffffff
+	eg 0 m2fade 120 255 0
+	eg 3 bg_effect_32
+	bg 0 e_hon01a
+	rdraw 48
+	frameon fade 15
+	wait 15
+	pcm A_s01_01_002
+女の子	「…………」
+
+	あの子だ。
+
+	俺が降りた時にもいた女の子が、まだ待合室に座っている。
+
+	bg 0 e_hon01c
+	rdraw 30
+	wait
+	いくら田舎とはいえ、電車はもう何本も来ている。
+
+	じっと改札を見ているし、誰かを待ってるように
+	見えるんだが……ずっとというのはおかしい。
+
+	bg 0 e_hon01b
+	rdraw 30
+	wait
+	pcm A_s01_01_003
+女の子	「くしゅんっ」\@
+	wait
+	str 310 bg
+	if($str310 == "cg" || $str310 == "mpl") fg 0 quake 5,10,0 5,-10,0 5,0,10 5,0,-10 5,0,0
+	bg 0 quake 5,10,0 5,-10,0 5,0,10 5,0,-10 5,0,0
+	\n
+
+$str20	「あ……」
+
+	そんなことを考えていたら、女の子が大きくくしゃみ。
+
+	pcm A_s01_01_004
+女の子	「うぅ……」
+
+	膝と手を擦りあわせている。
+
+	bg 0 e_hon01c
+	rdraw 30
+	wait
+	ああ、なるほど。どうやら彼女の前にあるストーブが
+	給油になっている。
+
+	やり方がわからないのか、そのままになっているらしい。
+
+$str20	（そりゃ寒いよな……）
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg29a
+	rwipe bg_white 48 0
+	wait
+	frameon fade 15
+	wait 15
+	見れば駅員さんたちは仕事に追われて気づいてないらしい。
+
+$str20	「すみませーん。そこの待合室の灯油切れてるんですけど、
+	補充してもいいですか？」
+
+駅員	「おっと、ああ、そりゃすまないね。
+	助かるよ。灯油は待合室の脇にあるから使ってくれ」
+
+$str20	「あ、ああ、了解です」
+
+	ダメ元で聞いてみたら、あっさり頷かれてしまう。
+
+	警戒心がないのか、信用してるのか……。
+
+$str20	（まぁ、信用ってことでいいか……）
+
+	この地域は暖房用の灯油をガンガン使うから、
+	灯油を保管する大きなタンクが外にある。
+
+	se 0 SEj036
+	そこから普通のポリタンクへ灯油を移す。
+
+$str20	「っと」
+
+	se 0 SEk022
+	自販機でホットのミルクティを買ってから、
+	灯油のポリタンク片手にストーブの前へ。
+
+	frameoff fade 15
+	wait 15
+	bgm 0 end 90
+	bg
+	cg
+	mpl
+	fg
+	eg 0 $ffffffff
+	eg 0 m2fade 60 255 0
+	bg 0 e_hon01c
+	rdraw 48
+	bgm 1 BGMss01
+	bgm 1 fade 120 0 100
+	frameon fade 15
+	wait 15
+$str20	「ほら、どうぞ」
+
+	bg 0 e_hon01d
+	rdraw 30
+	wait
+	pcm A_s01_01_005
+女の子	「え……？」
+
+	ミルクティの缶を差し出せば、女の子が目を丸くする。
+
+	pcm A_s01_01_006
+女の子	「なんですか？　ナンパはもうお断りなんですけど」
+
+	突然声をかけたせいだろうか。
+
+	それとも、既に誰かによろしくない声を
+	かけられていたからか、えらく不満そうに睨まれる。
+
+$str20	「ストーブの灯油入れるから、カイロ代わりにやるよ」
+
+	そう言いながら、缶を渡して灯油を入れる。
+
+	bg 0 e_hon01e
+	rdraw 30
+	wait
+	pcm A_s01_01_007
+女の子	「は、はぁ……？」
+
+	戸惑った彼女を尻目に灯油を補充開始。
+
+	pcm A_s01_01_008
+女の子	「あの……駅員さん、ですか……？」
+
+$str20	「いんや、通りすがりの正義の旅人だ」
+
+	bg 0 pos -460 -19
+	bg 0 e_hon01ld
+	rdraw 30
+	wait
+	pcm A_s01_01_009
+女の子	「なんですか……それ……？」
+
+	呆れたような、困ったような顔をする。
+	まぁ……普通に考えたらそうだ。
+
+$str20	「どっから来たんだ？」
+
+	bg
+	bg 0 e_hon01d
+	rdraw 30
+	wait
+	pcm A_s01_01_010
+女の子	「答える必要があるんですか」
+
+$str20	「誰か待ってるのか？」
+
+	pcm A_s01_01_011
+女の子	「答える理由がありません」
+
+$str20	「雪国じゃ、ストーブないと寒いよな」
+
+	pcm A_s01_01_012
+女の子	「寒いですけど、それがどうしたんです？」
+
+	……うーむ、ナシのつぶて。
+
+	『放っておいてください』という感じだが、
+	見知らぬ男に声をかけられたらこんな反応も自然だろう。
+
+$str20	（格好も、この辺の人にしてはセンスいいし、
+	やっぱり旅行者かな……）
+
+	bg 0 e_hon01e
+	rdraw 30
+	wait
+	pcm A_s01_01_013
+女の子	「……あの、お兄さんってここの人ですか？」
+
+	そんなことを思っていると、ふと女の子の方から質問。
+
+$str20	「答える必要があるのか？」
+
+	bg 0 e_hon01c
+	rdraw 30
+	wait
+	pcm A_s01_01_014
+女の子	「……うっ」
+
+	自分の発言を反省したのか、女の子が固まる。
+	意外とわかりやすい。
+
+$str20	「冗談だよ。温泉街にある旅館で世話になってる。
+	……おっ、満タンになったな」
+
+	se 0 SEj037
+	ストーブを付けて、火がちゃんと点いたのを確認。
+	ポリタンクを元の場所へと戻しに行く。
+
+	bg 0 e_hon01e
+	rdraw 30
+	wait
+	pcm A_s01_01_015
+女の子	「それじゃ、旅行者なんだ……」
+
+	灯油を戻して戻ってくると、今度は女の子がじっと
+	俺を見ている。
+
+$str20	「逆ナンか？」
+
+	bg 0 e_hon01d
+	rdraw 30
+	wait
+	pcm A_s01_01_016
+女の子	「違います！　あの……お兄さんって
+	この辺りは初めてですか？」\@
+	wait 60
+	bg 0 e_hon01f
+	rdraw 30
+	wait
+	\n
+
+$str20	「いや、何度か来てるぞ」
+
+	bg 0 e_hon01e
+	rdraw 30
+	wait
+	pcm A_s01_01_017
+女の子	「何度か……」
+
+	何やら悩んでいる様子。
+
+$str20	「どうかしたのか？」
+
+	bg 0 e_hon01f
+	rdraw 30
+	wait
+	pcm A_s01_01_018
+女の子	「その……この辺りのことは、詳しいですか？」
+
+$str20	「まぁ、それなりにな」
+
+	駅から向かうなら、なんとか分かるはずだ。
+
+	bg 0 e_hon01b
+	rdraw 30
+	wait
+	pcm A_s01_01_019
+女の子	「そう、ですか……」
+
+	女の子は目を閉じて少し悩んでいる様子だったが、
+	俺を見つめてくる。
+
+	bg 0 e_hon01f
+	rdraw 30
+	wait
+	pcm A_s01_01_020
+女の子	「でしたら……時間があればでいいですけど、
+	この町で一番見晴らしのいいところへ案内して欲しいです」
+
+	そんなことを言うのだった。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_01 48 0
+	wait
+	bg 0 bg14a
+	rwipe bg_effect_01 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	mpl 1 pos 512+120
+	mpl 1 arc 30 180 0 -(120/2) 0
+	mpl 1 fade 30 0 255
+	fg 1 pos 512+120
+	fg 1 arc 30 180 0 -(120/2) 0
+	fg 1 fade 30 0 255
+	rdraw 30
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,d,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	se 0 SEi003
+	pcm A_s01_01_021
+女の子	「きゃっ！？」\@
+	wait
+	mpl 1 arc 10 90 450 20
+	fg 1 arc 10 90 450 20
+	wait
+	\n
+
+$str20	「大丈夫か？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_022
+女の子	「ええ、このくらい……歩きにくいですけど……」
+
+	足を滑らせかけたものの、なんとかバランスを取り直す。
+	なかなかいいバランス感覚だ。
+
+$str20	「もう少し歩くけど、行けるか？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,b,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_023
+女の子	「行けるもなにも、私が行きたいって言ったんですから、
+	大丈夫です。行きます」
+
+	どうやら決意は固いらしい。
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,k,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_024
+女の子	「その……案内してもらえるのは助かりますし」
+
+$str20	「まぁ、旅は道連れだからな……雪国は初めてか？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,a,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_025
+女の子	「いえ、スキーに来たことありますから、
+	初めてってことはないですけど……慣れてはないです」
+
+	そう言いながら、足元の凍結した地面を、物珍しそうに、
+	足で軽く叩いている。
+
+	この様子だとやっぱり地元の人間ではなさそうだ。
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,j,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_026
+女の子	「どうしてこんな雪ばっかりのところに、
+	人って住めるんですかね……」\@
+	wait 240
+	mpl 1 arc 40 180 360 0 25
+	fg 1 arc 40 180 360 0 25
+	wait
+	\n
+
+$str20	「さぁねぇ。昔から住んでるからってのはあると思うけど」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_027
+女の子	「でも、こんなに雪ばかりで……」
+
+$str20	「もしかして……雪は嫌いか？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,j,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_028
+女の子	「多すぎて……好きも嫌いもよくわかりません」
+
+$str20	「特にこの辺りは、雪国でも雪の多い場所だからなぁ……」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_029
+女の子	「これより多いところなんて正直、想像もつきません。
+	ここでこれから……\@
+	wait 420
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,d,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 10
+	se 0 SEi013
+	きゃっ！？」\@
+	wait
+	mpl 1 arc 10 90 450 20
+	fg 1 arc 10 90 450 20
+	wait
+	\n
+
+	また滑りかける。
+
+$str20	「あんまり大股で歩かない方がいいぞ」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,j,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_030
+女の子	「そう、ですね……」
+
+	うーん……どうにも表情が暗い。
+	今日はいい天気なのだが、それとはえらく対照的だ。
+
+	……よし。
+
+$str20	「どうせ滑るなら……」
+
+	『道を開けて』とジェスチャーして、
+	俺自身は数歩さがって助走をつける。 \@
+	wait
+	mpl 1 move 48 #574
+	fg 1 move 48 #574 
+	\n
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_031
+女の子	「……？」
+
+$str20	「こうだな！」
+
+	se 0 SEe006
+	駆け出して、きょとんとする女の子の前を
+	そのままスケートの要領で、滑っていく。\@
+	wait
+	eg 2 bg_effect_46
+	rwipe bg_effect_16 48 0
+	\n
+
+	mpl 1
+	eg
+	eg 3 bg_effect_32
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona01m,$str303,$str306,1,d,0,$str307,$str308,$str309,  
+	fg 4 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_032
+女の子	「ええっ！？　そんなのできるんですか！？」\@
+	wait
+	mpl 4 arc 10 0 180 0 20
+	fg 4 arc 10 0 180 0 20
+	wait
+	\n
+
+$str20	「凍ってる道はスケートリンクと同じ！
+	このくらい容易いこと！！」
+
+	びっくりしてる彼女の前を、綺麗に通り過ぎ――
+
+	#875 = 0 
+	#876 = 2 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona02m,$str303,$str306,1,d,0,$str307,$str308,$str309,  
+	fg 4 sthona02maikon,0  
+	rdraw 20
+	pcm A_s01_01_033
+女の子	「あ」
+
+	frameoff fade 15
+	wait 15
+	eg
+	mpl 4
+	bg 1 pos -46 -295
+	bg 1 bg14La
+	rwipe bg_effect_15 48
+	se 0 SEg002
+	wait
+	frameon fade 15
+	wait 15
+	str 310 bg
+	if($str310 == "cg" || $str310 == "mpl") fg 1 quake 3,20,0 3,-20,0 3,0,20 3,0,-20 3,-20,0 3,0,20 3,0,-20 3,20,0 3,-20,0 3,0,20 3,0,-20 3,-20,0 3,0,0
+	bg 1 quake 3,20,0 3,-20,0 3,0,20 3,0,-20 3,-20,0 3,0,20 3,0,-20 3,20,0 3,-20,0 3,0,20 3,0,-20 3,-20,0 3,0,0
+$str20	「おわっ！？」
+
+	そのまま道端の雪の中に突っ込む。
+
+	……冷たい。
+
+	ぶつかったのが、柔らかい雪の部分だったから
+	良かったものの。
+
+	冷たい……。
+
+	bg 1 blur 5 5
+	bg 1 bg14La
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona01l,$str303,$str306,1,y,0,$str307,$str308,$str309,  
+	fg 4 sthona01laikon,0  
+	eg 3 bg_effect_32
+	rdraw 48
+	wait
+	pcm A_s01_01_034
+女の子	「何やってるんですか……」
+
+$str20	「まぁ、つまりは俺も雪国初心者ってことだな」
+
+	ぱっぱと体についた雪を払いながら苦笑するしかない。
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona01l,$str303,$str306,1,i,0,$str307,$str308,$str309,  
+	fg 4 sthona01laikon,0  
+	rdraw 20
+	pcm A_s01_01_035
+女の子	「もう……なんですか、それ」
+
+$str20	「おっ、笑ったか」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona01l,$str303,$str306,1,d,0,$str307,$str308,$str309,  
+	fg 4 sthona01laikon,0  
+	rdraw 20
+	pcm A_s01_01_036
+女の子	「え？」
+
+$str20	「辛気臭い顔してるよりも、そうやって笑ってるほうが、
+	ずっと魅力的だな」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona01l,$str303,$str306,2,k,0,$str307,$str308,$str309,  
+	fg 4 sthona01laikon,0  
+	rdraw 20
+	pcm A_s01_01_037
+女の子	「うっ……よくペラペラと歯の浮いたことが言えますね」
+
+$str20	「それで笑えるのなら、いいんじゃないか？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona01l,$str303,$str306,2,j,0,$str307,$str308,$str309,  
+	fg 4 sthona01laikon,0  
+	rdraw 20
+	pcm A_s01_01_038
+女の子	「まったく……まぁ、確かに案内お願いして、
+	嫌な思いをさせるのも不本意ではありますから」
+
+	#875 = 0 
+	#876 = 2 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 4 sthona02l,$str303,$str306,1,i,0,$str307,$str308,$str309,  
+	fg 4 sthona02laikon,0  
+	rdraw 20
+	pcm A_s01_01_039
+女の子	「すみませんでした。さっ、行きましょ」\@
+	wait
+	mpl 4 arc 40 180 360 0 25
+	fg 4 arc 40 180 360 0 25
+	wait
+	\n
+
+	呆れたようにため息をつかれるが、
+	その口元は少し緩んでくれていた。
+
+	frameoff fade 15
+	wait 15
+	rpflip 60 290 256 180
+	se 0 SEh023
+	cg
+	mpl
+	fg
+	bg
+	pl
+	eg
+	bg 0 bg26a
+	wait
+	frameon fade 15
+	wait 15
+$str20	「一番かどうかはわからないけど、
+	見晴らしのいいところといえばここだな」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_040
+女の子	「スキー場……ですか？」
+
+$str20	「ああ、[乗廻/のりまわし]スキー場って名前で、
+	リフトで上がれば、夜間瀬町を一望できる」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,b,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_041
+女の子	「リフトって……乗れるんですか？」
+
+$str20	「そういやそうだな……」
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	cg
+	mpl
+	fg
+	bg 1 bg26LLa
+	bg 1 pos -451 -603
+	rwipe bg_effect_12 48 0
+	wait
+	eg 3 bg_effect_32
+	rwipe bg_effect_53 30 0
+	wait
+	frameon fade 15
+	wait 15
+	リフト乗り場に行って聞いてみると、ダメではないものの、
+	保護者と一緒の子どもや体の不自由な方のように、
+	明確な理由が欲しいとのこと。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,t,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	bg 0 bg26a
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	その話を聞いて戻ってくれば、じっとスキーや
+	スノーボードをしている人たちを見ている。
+
+$str20	「スキーはやったことあるのか？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,d,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_042
+女の子	「え？　はい……その、パパやママと一緒に」
+
+	言いながら、どこか遠くを見るように山頂の方を見ている。
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,a,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_043
+女の子	「それで、リフトの件、どうだったんですか？」
+
+$str20	「ああ、大丈夫らしいけど、できれば乗るための、
+	明確な理由を教えて欲しいそうだ」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,j,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_044
+女の子	「理由……ですか」
+
+	どうもこの様子はあまり言いたくはないらしい。
+
+$str20	「どうする？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_045
+女の子	「それでしたら、その……できれば別の場所が……」
+
+$str20	「そっか……それなら仕方ないな」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,e,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_046
+女の子	「すみません……」
+
+$str20	「なに、気にするな。それじゃ、次のところは
+	もうちょっと低くなるけどいいか？」
+
+	俺の知識で、見晴らしのいいところといえば、
+	スキー場が一番だったんだが……。
+
+	見晴らしがいいとしたら、あとは『あそこ』だろう。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_02 48 0
+	wait
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,k,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	bg 0 bg14a
+	rwipe bg_effect_02 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+	se 0 SEd007
+	pcm A_s01_01_047
+女の子	「あの、お兄さんは何も聞かないんですね」
+
+	俺の後ろを歩きながら、聞いてくる女の子。
+
+$str20	「見晴らしのいいところ以外に、何か要望あったのか？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_048
+女の子	「いえ、そういうことじゃなくて……その、理由とか、
+	そもそも名前だって聞いてこないし」
+
+$str20	「それを言うなら、お互いさまだ。お前さんだって、
+	俺の名前を聞かないし、素直についてきてる」
+
+$str20	「俺が、危険な男じゃないって保証はないだろ？」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,b,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_049
+女の子	「本当に危険な人ならもうちょっと警戒させない
+	行動をとるでしょうし……まぁ、旅は道連れですから」
+
+$str20	「つまりは、まぁ……そのくらいの関係ってことだな」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,k,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_050
+女の子	「そう……ですね」
+
+	彼女は旅行者みたいだから、この後、会うことは
+	ほぼないと言っていい。
+
+	一期一会、互いに通りすがりの関係。
+
+	それを相手が求めているなら、乗るだけだ。
+
+	frameoff fade 15
+	wait 15
+	bgm 1 end 90
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_06 48 0
+	wait
+	bg 0 bg11b1
+	rwipe bg_effect_06 48 0
+	wait
+	wait
+	bgm 0 BGM02
+	frameon fade 15
+	wait 15
+	そうして次の場所に来る頃には、
+	すでに日が落ち始めていた。
+
+	事前に旅館には『道を聞かれたので案内している』と
+	電話を入れておいて正解だったな……。
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,t,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_051
+女の子	「神社……ですか？」
+
+$str20	「ああ、ここは『[高社/たかやしろ]神社』って言ってさ。
+	この辺りじゃ一番大きな神社で、俺も初詣で来る」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_052
+女の子	「へぇ……でも、ここって山の中だから見晴らしは……」
+
+$str20	「まぁまぁ、疑念はともかくこっちに来てくれ」
+
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,y,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	rdraw 20
+	pcm A_s01_01_053
+女の子	「こんな人気のないところへ連れてきて……
+	変なことするつもりじゃないですよね？」
+
+$str20	「一応、巫女さんがいた気がするんだが……」
+
+	確かに、今日の神社は初詣の時と違って、
+	閑散としていた。
+
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	pl
+	eg
+	fg
+	fw
+	mpl
+	bg 0 bg_white
+	rwipe bg_effect_12 48 0
+	wait
+	#875 = 0 
+	#876 = 1 
+	str 303 h
+	fesds 3 1 0 stcheck 0 
+	strcmp 99 $str304 1
+	if(#530 == 0 || #99) str 306 0 
+	if(#530 == 1 && #99 == 0) str 306 1 
+	mpl 1 sthona01m,$str303,$str306,1,c,0,$str307,$str308,$str309,  
+	fg 1 sthona01maikon,0  
+	bg 0 bg13b1
+	rwipe bg_effect_12 48 0
+	wait
+	wait
+	frameon fade 15
+	wait 15
+$str20	「よし、着いたぞ」
+
+	pcm A_s01_01_054
+女の子	「着いたって……あっ」
+
+	bgm 0 end 90
+	bgm 1 BGM10
+	bgm 1 fade 120 0 100
+	frameoff fade 15
+	wait 15
+	bg
+	cg
+	mpl
+	fg
+	eg 0 $ffffffff
+	eg 0 m2fade 120 255 0
+	bg 1 pos -475 -89
+	bg 1 e_hon02la
+	wait
+	wait 30
+	wait
+	bg 1 m2move 270 -20 -30
+	bg 1 m2fade 180 255 0
+	bg 0 e_hon02a
+	frameon fade 15
+	wait 15
+	木々の隙間から一望できる景色に息を飲むのが分かる。
+
+$str20	「梢が邪魔かもしれないが……遠くまで見えるだろ？」
+
+	pcm A_s01_01_055
+女の子	「そう、ですね……」
+
+	見つけたのはたまたまだ。
+
+	年末の初詣で、少し参道から離れてふと見た、景色。
+
+	新年を祝おうと、見える家々は深夜なのに明かりが灯って、
+	地上に星が降りたようでもあった。
+
+$str20	「夕暮れ時も……いいもんだな」
+
+	bg 0 e_hon02b
+	rdraw 48
+	wait
+	pcm A_s01_01_056
+女の子	「ええ……なんだか、輝いて見えますね」
+
+$str20	「雪が夕焼けに、反射してるのかもな」
+
+	pcm A_s01_01_057
+女の子	「雪で……」
+
+	口の中だけで呟きながら、視線は遠くを見つめ続ける。
+
+	どうやら、彼女にとっても、
+	十分に満足の行く場所であってくれたようだ。
+
+	bg 0 e_hon02c
+	rdraw 48
+	wait
+	pcm A_s01_01_058
+女の子	「あの……南ってどっちですか？」
+
+	しばらく見ていた彼女が問いかけてくる。
+
+$str20	「えっと……このまま……まっすぐ先だと思う」
+
+	bg 0 e_hon02b
+	rdraw 48
+	wait
+	pcm A_s01_01_059
+女の子	「南……」
+
+	どこか睨むように遠くを見つめる。
+
+	まるで、何かを念じるように、祈るように。
+
+	pcm A_s01_01_060
+女の子	「あっちが、南……」
+
+	ぎゅっと閉じた口元、幼さと鋭さを同居させた瞳。
+
+	コートに身を包んでいてもわかる、そのすらっとした立ち姿。
+
+$str20	「…………」
+
+	思わず言葉を失う。
+
+	それほどに彼女の横顔は印象的だった。
+
+	bg 0 e_hon02a
+	rdraw 48
+	wait
+	se 0 SEc002
+	pcm A_s01_01_061
+女の子	「あ……」
+
+	風が吹いて、木々に降り積もった雪が辺りに舞い上がる。
+
+	bg 0 e_hon02a
+	rdraw 48
+	wait
+	pcm A_s01_01_062
+女の子	「雪国……」
+
+	キラキラと輝く光の中、
+	また彼女はじっと遠くを見続けていた。
+
+	frameoff fade 15
+	wait 15
+	skipstop
+	bgm 1 end 240
+	bg stop
+	cg stop
+	fg stop
+	eg stop
+	fw stop
+	pl stop
+	mpl stop
+	bg
+	cg
+	fg
+	eg
+	fw
+	pl
+	mpl
+	se 0 end 150
+	se 1 end 150
+	se 2 end 150
+	se 3 end 150
+	se 4 end 150
+	se 5 end 150
+	pcm 0 end 150
+	pcm 1 end 150
+	pcm 2 end 150
+	bg 0 bg_white
+	rdraw 120
+	wait
+	next 00_movie

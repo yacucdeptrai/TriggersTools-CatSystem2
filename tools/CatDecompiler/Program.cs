@@ -15,6 +15,9 @@ namespace CatDecompiler {
 		private static Level? errorLevel = null;
 		private static Level? logLevel = null;
 		private static int count = 0;
+		private static string extractArchive = null;
+		private static string extractExe = null;
+		private static string extractOutput = null;
 
 		private static int? ParseArguments(string[] args) {
 			if (args.Length == 0) {
@@ -92,6 +95,27 @@ namespace CatDecompiler {
 							throw new CommandLineException($"Already specified option \"{arg}\"!");
 						encoding = Encoding.UTF8;
 						break;
+					case "--extract-int":
+						if (extractArchive != null)
+							throw new CommandLineException($"Already specified option \"{arg}\"!");
+						if (i + 1 == args.Length)
+							throw new CommandLineException($"Expected archive path after \"{arg}\"!");
+						extractArchive = args[++i];
+						break;
+					case "--exe":
+						if (extractExe != null)
+							throw new CommandLineException($"Already specified option \"{arg}\"!");
+						if (i + 1 == args.Length)
+							throw new CommandLineException($"Expected executable path after \"{arg}\"!");
+						extractExe = args[++i];
+						break;
+					case "--extract-output":
+						if (extractOutput != null)
+							throw new CommandLineException($"Already specified option \"{arg}\"!");
+						if (i + 1 == args.Length)
+							throw new CommandLineException($"Expected output directory after \"{arg}\"!");
+						extractOutput = args[++i];
+						break;
 					default:
 						isArgInput = true;
 						if (i == 0) {
@@ -116,6 +140,20 @@ namespace CatDecompiler {
 					}
 				}
 
+				if (extractArchive != null || extractExe != null || extractOutput != null) {
+					if (inputs != null && inputs.Count > 0)
+						throw new CommandLineException("Do not mix decompile inputs with --extract-int mode!");
+					if (extractArchive == null || extractExe == null)
+						throw new CommandLineException("--extract-int mode requires both --extract-int <archive.int> and --exe <game.exe>!");
+					if (extractOutput == null) {
+						string archiveDir = Path.GetDirectoryName(extractArchive);
+						if (string.IsNullOrEmpty(archiveDir))
+							archiveDir = Directory.GetCurrentDirectory();
+						extractOutput = Path.Combine(archiveDir, Path.GetFileNameWithoutExtension(extractArchive) + "_extract");
+					}
+					return null;
+				}
+
 				if (inputs == null || inputs.Count == 0)
 					throw new CommandLineException("No inputs specified!");
 
@@ -131,6 +169,7 @@ namespace CatDecompiler {
 
 				if (output == null)
 					output = Directory.GetCurrentDirectory();
+				Directory.CreateDirectory(output);
 
 				if (encoding == null)
 					encoding = CatUtils.ShiftJIS;
@@ -147,6 +186,8 @@ namespace CatDecompiler {
 			int? result = ParseArguments(args);
 			if (result.HasValue)
 				return result.Value;
+			if (extractArchive != null)
+				return ExtractArchiveMode();
 
 			foreach (string input in inputs) {
 				string fileName = Path.GetFileName(input);
@@ -299,6 +340,35 @@ namespace CatDecompiler {
 			return 0;
 		}
 
+		private static int ExtractArchiveMode() {
+			try {
+				Console.WriteLine("CatSystem2 Script Decompiler");
+				Console.WriteLine($"Extracting archive: {extractArchive}");
+				Console.WriteLine($"Using game executable: {extractExe}");
+				Console.WriteLine($"Output directory: {extractOutput}");
+
+				Directory.CreateDirectory(extractOutput);
+				VCodes vcodes = VCodes.Load(extractExe);
+				KifintArchive archive = KifintArchive.LoadArchive(extractArchive, vcodes.VCode2);
+				int extracted = 0;
+				using (KifintStream kifintStream = new KifintStream()) {
+					foreach (KifintEntry entry in archive) {
+						string outFile = Path.Combine(extractOutput, entry.FileName);
+						string outDir = Path.GetDirectoryName(outFile);
+						if (!string.IsNullOrEmpty(outDir))
+							Directory.CreateDirectory(outDir);
+						entry.ExtractToFile(kifintStream, outFile);
+						extracted++;
+					}
+				}
+				Console.WriteLine($"Extracted {extracted} files");
+				return 0;
+			} catch (Exception ex) {
+				PrintError(ex.Message);
+				return 1;
+			}
+		}
+
 		private static bool Decompile(string file) {
 			try {
 				AnmAnimation anm = AnmAnimation.Extract(file);
@@ -383,6 +453,9 @@ namespace CatDecompiler {
 			PrintOption("-ext, --extension <.ext>", "Output extension for decompiled files, default is \".txt\"");
 			PrintOption("-utf8, --utf8", "Decompiled files will be encoded in UTF-8, default is Shift JIS");
 			PrintOption("-x, --error-level <errlevel>", "Errors to stop at: high=warnings, low=errors (default), none");
+			PrintOption("--extract-int <archive.int>", "Extract all files from a .int archive");
+			PrintOption("--exe <game.exe>", "Game executable used to resolve V_CODE2 for decryption");
+			PrintOption("--extract-output <outdir>", "Output directory for extracted archive contents");
 			//PrintOption("-l <loglevel>", "What to log: high=output, med=any error, low=program error (default), none");
 			/*Console.WriteLine($"  -o <outdir>  Output directory for decompiled files");
 			//Console.WriteLine($"  -e|--encoding utf8|jis  Output file encoding, Shift JIS by default");
