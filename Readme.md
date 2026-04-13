@@ -28,24 +28,105 @@ dotnet restore .\TriggersTools.CatSystem2.sln
 dotnet build .\TriggersTools.CatSystem2.sln -c Release
 ```
 
+### Prerequisites
+
+- .NET SDK installed (`dotnet --version`)
+- Windows PowerShell (examples below use PowerShell syntax)
+- Script inputs available (`*.anm`, `*.cst`, `*.fes`, or decompiled `*.txt`)
+
+### Build Only Tool Projects
+
+```powershell
+dotnet build .\tools\CatCompiler\CatCompiler.csproj -c Release
+dotnet build .\tools\CatDecompiler\CatDecompiler.csproj -c Release
+```
+
 ## CLI Tools
 
 ### `CatCompiler`
 
-Compile script text back into CatSystem2 script binaries:
+Compile script text (`.txt`) back into CatSystem2 script binaries:
+
+```powershell
+dotnet run --project .\tools\CatCompiler -- --help
+```
+
+Usage:
+
+```text
+catcompiler <anm|cst|fes> <input> [output]
+catcompiler --type <anm|cst|fes> --input <input> [--output <output>]
+```
+
+Examples:
 
 ```powershell
 dotnet run --project .\tools\CatCompiler -- anm .\input\*.txt .\out
 dotnet run --project .\tools\CatCompiler -- --type cst --input .\input\scene_*.txt --output .\out
+dotnet run --project .\tools\CatCompiler -- --type fes --input .\scripts\*.txt
 ```
+
+Notes:
+- `output` is optional; default is input file directory.
+- Wildcards are supported for input patterns.
 
 ### `CatDecompiler`
 
 Decompile CatSystem2 script binaries into editable text:
 
 ```powershell
+dotnet run --project .\tools\CatDecompiler -- --help
+```
+
+Usage:
+
+```text
+cs2_decompile [infiles...] [options]
+```
+
+Common options:
+- `-i <infiles...>` input files (supports wildcards)
+- `-o, --output <outdir>` output directory
+- `-ext, --extension <.ext>` output extension (`.txt` by default)
+- `-utf8, --utf8` output UTF-8 (`Shift JIS` by default)
+- `-x, --error-level <none|low|high>` stop behavior on errors/warnings
+
+Examples:
+
+```powershell
 dotnet run --project .\tools\CatDecompiler -- .\input\*.cst -o .\out -utf8
 dotnet run --project .\tools\CatDecompiler -- -i .\input\*.anm .\input\*.fes --output .\out --extension .txt
+dotnet run --project .\tools\CatDecompiler -- -i .\input\scene\*.cst --output .\decompiled --error-level low
+```
+
+## End-to-End Terminal Workflow
+
+```powershell
+# 1) Build tools
+dotnet restore .\TriggersTools.CatSystem2.sln
+dotnet build .\tools\CatDecompiler\CatDecompiler.csproj -c Release
+dotnet build .\tools\CatCompiler\CatCompiler.csproj -c Release
+
+# 2) Decompile original scripts
+dotnet run --project .\tools\CatDecompiler -- -i .\input\*.cst --output .\work --utf8
+
+# 3) Edit generated text files in .\work
+
+# 4) Recompile edited text back to binary scripts
+dotnet run --project .\tools\CatCompiler -- --type cst --input .\work\*.txt --output .\rebuilt
+```
+
+## Run Built Executables Directly
+
+After a release build, executables are typically under:
+
+- `.\tools\CatCompiler\bin\Release\net462\CatCompiler.exe`
+- `.\tools\CatDecompiler\bin\Release\net462\CatDecompiler.exe`
+
+Example:
+
+```powershell
+.\tools\CatDecompiler\bin\Release\net462\CatDecompiler.exe -i .\input\*.anm -o .\out -utf8
 ```
 
 ## Other Projects/Tools of Note & Special Thanks
