@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-  <Target Name="ILRepacker" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+  <Target Name="ILRepacker" AfterTargets="Build" Condition="'$(Configuration)' == 'Release' and '$(MSBuildRuntimeType)' != 'Core'">
     <ItemGroup>
       <!-- Set the original assembly to be patched -->
       <InputAssemblies Include="$(TargetPath)" />
@@ -27,6 +27,10 @@
 			  TargetKind="SameAsPrimaryAssembly"
         OutputFile="$(TargetPath)"
         LibraryPath="$(OutputPath)"/>
+  </Target>
+
+  <Target Name="ILRepackerSkipMessage" AfterTargets="Build" Condition="'$(Configuration)' == 'Release' and '$(MSBuildRuntimeType)' == 'Core'">
+    <Message Importance="high" Text="Skipping ILRepack on Core MSBuild runtime. Use full-framework MSBuild for release repacking." />
   </Target>
 
 </Project>
