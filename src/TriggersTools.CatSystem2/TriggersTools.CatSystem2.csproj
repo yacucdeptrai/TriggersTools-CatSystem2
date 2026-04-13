@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Project Settings -->
+  <PropertyGroup>
+    <TargetFrameworks>net451;net46;netstandard2.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>TriggersTools.CatSystem2</RootNamespace>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+  
+  <!-- Configurations -->
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+    <DefineConstants>TRACE;DEBUG;NATIVE_ZLIB;NATIVE_ASMODEAN;JSON;CAT_DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DefineConstants>TRACE;NATIVE_ZLIB;NATIVE_ASMODEAN;JSON;CAT_DEBUG</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Global Properties -->
+  <Import Project="$(MSBuildThisFileDirectory)..\CatSystem2.props" />
+
+  <!-- Package Settings -->
+  <PropertyGroup>
+    <PackageId>TriggersTools.CatSystem2</PackageId>
+    <Product>TriggersTools.CatSystem2</Product>
+    <Description>A library for working with CatSystem2 visual novel engine file formats.</Description>
+    <PackageTags>catsystem2 visual novel vn translation</PackageTags>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Robert Jordan</Authors>
+    <Company>Trigger's Tools &amp; Games</Company>
+    <Copyright>Copyright © Robert Jordan $([System.DateTime]::Now.Year)</Copyright>
+    <PackageTags>catsystem2 visual novel vn translation</PackageTags>
+
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/trigger-death/TriggersTools.CatSystem2</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/trigger-death/TriggersTools.CatSystem2</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/trigger-death/TriggersTools.CatSystem2/blob/master/License.md</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/trigger-death/TriggersTools.CatSystem2/master/NuGetIcon.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <!-- Shared Project -->
+  <Import Project="..\TriggersTools.CatSystem2.Shared\TriggersTools.CatSystem2.Shared.projitems" Label="Shared" />
+
+  <!-- Package References -->
+  <ItemGroup>
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.16.1">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="TriggersTools.SharpUtils" Version="1.0.3-build-000049">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="TriggersTools.Windows.Resources.Core" Version="1.0.2-build-000011" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+  
+</Project>

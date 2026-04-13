@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Configurations -->
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+    <DefineConstants>TRACE;DEBUG;NATIVE_ZLIB;CAT_DEBUG</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DefineConstants>TRACE;NATIVE_ZLIB;CAT_DEBUG</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Global Properties -->
+  <Import Project="$(MSBuildThisFileDirectory)..\CatSystem2.props" />
+
+  <!-- Package Settings -->
+  <PropertyGroup>
+    <PackageId>TriggersTools.CatSystem2.Lightweight</PackageId>
+    <Product>TriggersTools.CatSystem2.Lightweight</Product>
+    <Description>A library for working with CatSystem2 visual novel engine file formats. This package excludes Newtonsoft.Json.</Description>
+    <PackageTags>catsystem2 visual novel vn translation</PackageTags>
+
+    <!-- Don't generate this package until we're ready -->
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <!-- Shared Project -->
+  <Import Project="..\TriggersTools.CatSystem2.Shared\TriggersTools.CatSystem2.Shared.projitems" Label="Shared" />
+
+  <!-- Package References -->
+  <ItemGroup>
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.16.1">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="TriggersTools.SharpUtils" Version="1.0.3-build-000049">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="TriggersTools.Windows.Resources.Core" Version="1.0.2-build-000011">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+  </ItemGroup>
+</Project>

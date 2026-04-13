@@ -1,0 +1,2255 @@
+﻿//Bytes=32,Offset=0x0058CFA0
+//DDEより環境情報を取得しました
+DDEより環境情報を取得しました
+Environment Info got from DDE
+
+//Bytes=8,Offset=0x00590960
+//エラー
+エラー
+Error
+
+//Bytes=40,Offset=0x00590968
+//WindowsAPIモードでサウンドを再生します
+WindowsAPIモードでサウンドを再生します
+Play sound in Windows API mode
+
+//Bytes=40,Offset=0x00590990
+//DirectSoundモードでサウンドを再生します
+DirectSoundモードでサウンドを再生します
+Play sound in DirectSound mode
+
+//Bytes=40,Offset=0x005909B8
+//サウンド制御スレッドを終了しました。
+サウンド制御スレッドを終了しました。
+Sound control thread ended.
+
+//Bytes=16,Offset=0x005909E0
+//sndvol32.exe
+sndvol32.exe
+$nr$
+
+//Bytes=12,Offset=0x005909F0
+//sndvol.exe
+sndvol.exe
+$nr$
+
+//Bytes=20,Offset=0x005909FC
+//VolumeControlClass
+VolumeControlClass
+$nr$
+
+//Bytes=32,Offset=0x00590A10
+//ミキサーライブラリ終了に失敗
+ミキサーライブラリ終了に失敗
+Mixer library failed to end
+
+//Bytes=16,Offset=0x00590A30
+//ＭＳ ゴシック
+ＭＳ ゴシック
+$nr$
+
+//Bytes=64,Offset=0x00590A40
+//kcSoundWaveDS : 既に他のアプリにDirectSoundが使用されています
+kcSoundWaveDS : 既に他のアプリにDirectSoundが使用されています
+kcSoundWaveDS : Another app is already using DirectSound
+
+//Bytes=52,Offset=0x00590A80
+//kcSoundWaveDS : サウンドデバイスが見つかりません
+kcSoundWaveDS : サウンドデバイスが見つかりません
+kcSoundWaveDS : Sound device not found
+
+//Bytes=48,Offset=0x00590AB4
+//kcSoundWaveDS : 協調レベルを NORMAL にしました
+kcSoundWaveDS : 協調レベルを NORMAL にしました
+kcSoundWaveDS : Cooperation level set to NORMAL
+
+//Bytes=44,Offset=0x00590AE4
+//kcSoundWaveDS : DirectSoundを初期化しました
+kcSoundWaveDS : DirectSoundを初期化しました
+kcSoundWaveDS : DirectSound initialized
+
+//Bytes=48,Offset=0x00590B10
+//kcSoundWaveDS : プライマリバッファ作成に失敗
+kcSoundWaveDS : プライマリバッファ作成に失敗
+kcSoundWaveDS : Primary buffer creation failed
+
+//Bytes=60,Offset=0x00590B40
+//kcSoundWaveDS : プライマリバッファフォーマットの設定に失敗
+kcSoundWaveDS : プライマリバッファフォーマットの設定に失敗
+kcSoundWaveDS : Failed to set the primary buffer format
+
+//Bytes=24,Offset=0x00590C14
+//OggVobis : リーク発生！
+OggVobis : リーク発生！
+OggVobis: Leak occurred
+
+//Bytes=40,Offset=0x00590CA0
+//未対応のサウンドファイル形式です : %s
+未対応のサウンドファイル形式です : %s
+Unsupported sound file format : %s
+
+//Bytes=32,Offset=0x00590CC8
+//DirectSound Play Failed! : %s
+DirectSound Play Failed! : %s
+$nr$
+
+//Bytes=20,Offset=0x00590CE8
+//SOUND STOP FAILED!
+SOUND STOP FAILED!
+$nr$
+
+//Bytes=44,Offset=0x00590CFC
+//kcSoundWaveDSSnd : ファイルローダが不正です
+kcSoundWaveDSSnd : ファイルローダが不正です
+kcSoundWaveDSSnd : File loader is invalid
+
+//Bytes=40,Offset=0x00590D28
+//kcSoundWaveDSSnd : バッファが不正です
+kcSoundWaveDSSnd : バッファが不正です
+kcSoundWaveDSSnd : Buffer is invalid
+
+//Bytes=32,Offset=0x00590D50
+//kcSoundWaveDSSnd : 停止中です
+kcSoundWaveDSSnd : 停止中です
+kcSoundWaveDSSnd: Stopping
+
+//Bytes=44,Offset=0x00590D70
+//\nﾗ#<H・BkcFileServer は複数作成出来ません
+\nﾗ#<H・BkcFileServer は複数作成出来ません
+$nr$
+
+//Bytes=40,Offset=0x00590E14
+//既に違うファイルがオープンされています
+既に違うファイルがオープンされています
+A different file is already open
+
+//Bytes=52,Offset=0x00590E3C
+//KCFILE_READ 又は KCFILE_WRITE を指定してください
+KCFILE_READ 又は KCFILE_WRITE を指定してください
+Please specify KCFILE_READ or KCFILE_WRITE
+
+//Bytes=36,Offset=0x00590E70
+//KCFILE_READ ではアクセス出来ません
+KCFILE_READ ではアクセス出来ません
+Cannot access with KCFILE_READ
+
+//Bytes=28,Offset=0x00590E94
+//kcFile : ハンドルが無効です
+kcFile : ハンドルが無効です
+kcFile : Invalid handle
+
+//Bytes=44,Offset=0x00590EB0
+//読み込みモードでオープンされていません : %s
+読み込みモードでオープンされていません : %s
+Not open in read mode : %s
+
+//Bytes=24,Offset=0x00590EDC
+//Read file failed : %d
+Read file failed : %d
+$nr$
+
+//Bytes=44,Offset=0x00590EF4
+//書き込みモードでオープンされていません : %s
+書き込みモードでオープンされていません : %s
+Not open in write mode : %s
+
+//Bytes=24,Offset=0x00590F20
+//Write file failed : %d
+Write file failed : %d
+$nr$
+
+//Bytes=36,Offset=0x00590F38
+//統合ファイルのオープンに失敗 : %s
+統合ファイルのオープンに失敗 : %s
+Failed to open integrated file : %s
+
+//Bytes=36,Offset=0x00590F5C
+//統合ファイルのヘッダ照合に失敗 : %s
+統合ファイルのヘッダ照合に失敗 : %s
+Hdr collation of file failed : %s
+
+//Bytes=4,Offset=0x00590F80
+//KIF
+KIF
+$nr$
+
+//Bytes=40,Offset=0x00590F88
+//統合ファイルリンク情報取得に失敗 : %s
+統合ファイルリンク情報取得に失敗 : %s
+Failed to get file lnk information : %s
+
+//Bytes=12,Offset=0x00590FB0
+//__key__.dat
+__key__.dat
+$nr$
+
+//Bytes=28,Offset=0x00590FBC
+//統合ファイルオープン : %s
+統合ファイルオープン : %s
+Integration file open : %s
+
+//Bytes=60,Offset=0x00590FD8
+//同時にオープンできるファイル数を超えています (MAX:%d) : %s
+同時にオープンできるファイル数を超えています (MAX:%d) : %s
+Exceeded count of files open at the same time (MAX:%d) : %s
+
+//Bytes=60,Offset=0x00591014
+//同時にオープンできるファイル数を超えています (MAX:%d) : %d
+同時にオープンできるファイル数を超えています (MAX:%d) : %d
+Exceeded count of files open at the same time (MAX:%d) : %d
+
+//Bytes=36,Offset=0x00591050
+//ファイルが見つかりませんでした : %d
+ファイルが見つかりませんでした : %d
+File not found : %d
+
+//Bytes=40,Offset=0x00591074
+//読み込み先バッファが指定されていません
+読み込み先バッファが指定されていません
+The destination buffer is not specified
+
+//Bytes=24,Offset=0x0059109C
+//読み込みに失敗 (%s:%d)
+読み込みに失敗 (%s:%d)
+Failed to load (%s:%d)
+
+//Bytes=28,Offset=0x005910B4
+//暗号化解除エラー (%s:%d)
+暗号化解除エラー (%s:%d)
+Decryption error (%s:%d)
+
+//Bytes=40,Offset=0x005910D0
+//ファイルポインタ移動タイプが不正です
+ファイルポインタ移動タイプが不正です
+File pointer move type is invalid
+
+//Bytes=40,Offset=0x005910F8
+//統合ファイルがオープンされていません
+統合ファイルがオープンされていません
+Integrated file is not open
+
+//Bytes=52,Offset=0x00591160
+//kcBigFile : 統合ファイルがオープンされていません
+kcBigFile : 統合ファイルがオープンされていません
+kcBigFile : Integrated file is not open
+
+//Bytes=40,Offset=0x00591194
+//kcBigFile : ファイルハンドルが無効です
+kcBigFile : ファイルハンドルが無効です
+kcBigFile : Invalid file handle
+
+//Bytes=48,Offset=0x005911FC
+//kcMemFile : ファイルがオープンされていません
+kcMemFile : ファイルがオープンされていません
+kcMemFile : File is not open
+
+//Bytes=60,Offset=0x0059126C
+//kcProtect : データサイズは8バイト単位である必要があります
+kcProtect : データサイズは8バイト単位である必要があります
+kcProtect : Data size must be in 8-byte units
+
+//Bytes=60,Offset=0x005912A8
+//kcProtect : データサイズは8バイト単位である必要があります
+kcProtect : データサイズは8バイト単位である必要があります
+kcProtect : Data size must be in 8-byte units
+
+//Bytes=8,Offset=0x005912E4
+//%c:\\
+%c:\\
+$nr$
+
+//Bytes=8,Offset=0x005912EC
+//%c:\\
+%c:\\
+$nr$
+
+//Bytes=32,Offset=0x005912F4
+//ゲームスレッドを終了しました
+ゲームスレッドを終了しました
+Game thread ended
+
+//Bytes=40,Offset=0x00591314
+//スレッド初期化でエラーが発生しました
+スレッド初期化でエラーが発生しました
+Error occurred in thread initialization
+
+//Bytes=52,Offset=0x0059133C
+//ゲームスレッドを起動しました  frame late : %d fps
+ゲームスレッドを起動しました  frame late : %d fps
+Started game thread frame late : %d fps
+
+//Bytes=16,Offset=0x00591370
+//%s - frame %d
+%s - frame %d
+$nr$
+
+//Bytes=40,Offset=0x00591380
+//ゲームスレッド内ループから抜けました
+ゲームスレッド内ループから抜けました
+Left the loop inside the game thread
+
+//Bytes=32,Offset=0x005913A8
+//タスクマネージャーを破棄します
+タスクマネージャーを破棄します
+Discard the task manager
+
+//Bytes=36,Offset=0x005913C8
+//タスクマネージャーを破棄しました
+タスクマネージャーを破棄しました
+Task manager discarded
+
+//Bytes=12,Offset=0x005913EC
+//BASE TASK
+BASE TASK
+$nr$
+
+//Bytes=32,Offset=0x005913F8
+//ベースタスク[%d]を作成しました
+ベースタスク[%d]を作成しました
+Base task [%d] created
+
+//Bytes=28,Offset=0x00591418
+//最上位タスクを破棄しました
+最上位タスクを破棄しました
+Top level task discarded
+
+//Bytes=24,Offset=0x00591434
+//ビューを破棄しました
+ビューを破棄しました
+Discarded view
+
+//Bytes=52,Offset=0x005914F4
+//セーブデータファイル %s への書き込みに失敗しました
+セーブデータファイル %s への書き込みに失敗しました
+Failed to write to save data file %s
+
+//Bytes=48,Offset=0x00591528
+//セーブデータファイル %s がオープンできません
+セーブデータファイル %s がオープンできません
+Save data file %s can not be opened
+
+//Bytes=52,Offset=0x00591558
+//未定義のタスクを作成しようとしました type=%d (%s)
+未定義のタスクを作成しようとしました type=%d (%s)
+Attempted to create an undefined task type=%d (%s)
+
+//Bytes=80,Offset=0x005915E8
+//プレーンモデル[%s]の読み込みに失敗しました。コマンドミスの可能性があります。
+プレーンモデル[%s]の読み込みに失敗しました。コマンドミスの可能性があります。
+Loading plain model [%s] failed. There is a possibility of command mistake.
+
+//Bytes=8,Offset=0x00591638
+//警告
+警告
+Warning
+
+//Bytes=12,Offset=0x00591640
+//ptn plane
+ptn plane
+$nr$
+
+//Bytes=52,Offset=0x005917B0
+//Task_Eff_GlassBreak : 3Dモードで使用してください
+Task_Eff_GlassBreak : 3Dモードで使用してください
+Task_Eff_GlassBreak : Please use in 3D mode
+
+//Bytes=44,Offset=0x00591864
+//Task_Eff_Wipe : 3Dモードで使用してください
+Task_Eff_Wipe : 3Dモードで使用してください
+Task_Eff_Wipe : Please use in 3D mode
+
+//Bytes=44,Offset=0x00591944
+//Task_Eff2D_Wipe : パラメータ src が不正です
+Task_Eff2D_Wipe : パラメータ src が不正です
+Task_Eff2D_Wipe : Parameter src is invalid
+
+//Bytes=44,Offset=0x00591970
+//Task_Eff2D_Wipe : パラメータ dst が不正です
+Task_Eff2D_Wipe : パラメータ dst が不正です
+Task_Eff2D_Wipe : Parameter dst is invalid
+
+//Bytes=48,Offset=0x0059199C
+//Task_Eff2D_Wipe : パラメータ mask が不正です
+Task_Eff2D_Wipe : パラメータ mask が不正です
+Task_Eff2D_Wipe : Parameter mask is invalid
+
+//Bytes=36,Offset=0x005919F0
+//Task_Eff2D_Fade : 画像サイズ不一致
+Task_Eff2D_Fade : 画像サイズ不一致
+Task_Eff2D_Fade : Img size mismatch
+
+//Bytes=36,Offset=0x00591A14
+//Task_Eff2D_Fade : 画像解像度エラー
+Task_Eff2D_Fade : 画像解像度エラー
+Task_Eff2D_Fade : Image res error
+
+//Bytes=44,Offset=0x00591A38
+//Task_Eff2D_Fade : パラメータ src が不正です
+Task_Eff2D_Fade : パラメータ src が不正です
+Task_Eff2D_Fade : Parameter src is invalid
+
+//Bytes=44,Offset=0x00591A64
+//Task_Eff2D_Fade : パラメータ dst が不正です
+Task_Eff2D_Fade : パラメータ dst が不正です
+Task_Eff2D_Fade : Parameter dst is invalid
+
+//Bytes=40,Offset=0x00591A90
+//Task_Eff2D_Fade : src の BPP が不正です
+Task_Eff2D_Fade : src の BPP が不正です
+Task_Eff2D_Fade : BPP of src is invalid
+
+//Bytes=40,Offset=0x00591AB8
+//Task_Eff2D_Fade : dst の BPP が不正です
+Task_Eff2D_Fade : dst の BPP が不正です
+Task_Eff2D_Fade : BPP of dst is invalid
+
+//Bytes=52,Offset=0x00591B04
+//Task_Eff2D_WipeAlpha : パラメータ src が不正です
+Task_Eff2D_WipeAlpha : パラメータ src が不正です
+Task_Eff2D_WipeAlpha : Parameter src is invalid
+
+//Bytes=52,Offset=0x00591B38
+//Task_Eff2D_WipeAlpha : パラメータ mask が不正です
+Task_Eff2D_WipeAlpha : パラメータ mask が不正です
+Task_Eff2D_WipeAlpha : Parameter mask is invalid
+
+//Bytes=40,Offset=0x00591B6C
+//Task_Eff2D_WipeAlpha : 画像解像度エラー
+Task_Eff2D_WipeAlpha : 画像解像度エラー
+Task_Eff2D_WipeAlpha : Image res error
+
+//Bytes=48,Offset=0x00591BD4
+//Task_Eff2D_Wipe2 : パラメータ src が不正です
+Task_Eff2D_Wipe2 : パラメータ src が不正です
+Task_Eff2D_Wipe2 : Parameter src is invalid
+
+//Bytes=48,Offset=0x00591C04
+//Task_Eff2D_Wipe2 : パラメータ dst が不正です
+Task_Eff2D_Wipe2 : パラメータ dst が不正です
+Task_Eff2D_Wipe2 : Parameter dst is invalid
+
+//Bytes=48,Offset=0x00591C34
+//Task_Eff2D_Wipe2 : パラメータ mask が不正です
+Task_Eff2D_Wipe2 : パラメータ mask が不正です
+Task_Eff2D_Wipe2 : Parameter mask is invalid
+
+//Bytes=48,Offset=0x00591C88
+//Task_Eff2D_Wipe3 : パラメータ src が不正です
+Task_Eff2D_Wipe3 : パラメータ src が不正です
+Task_Eff2D_Wipe3 : Parameter src is invalid
+
+//Bytes=48,Offset=0x00591CB8
+//Task_Eff2D_Wipe3 : パラメータ dst が不正です
+Task_Eff2D_Wipe3 : パラメータ dst が不正です
+Task_Eff2D_Wipe3 : Parameter dst is invalid
+
+//Bytes=48,Offset=0x00591CE8
+//Task_Eff2D_Wipe3 : パラメータ mask が不正です
+Task_Eff2D_Wipe3 : パラメータ mask が不正です
+Task_Eff2D_Wipe3 : Parameter mask is invalid
+
+//Bytes=52,Offset=0x00591D3C
+//Task_Eff2D_WipeAlpha3 : パラメータ src が不正です
+Task_Eff2D_WipeAlpha3 : パラメータ src が不正です
+Task_Eff2D_WipeAlpha3 : Parameter src is invalid
+
+//Bytes=52,Offset=0x00591D70
+//Task_Eff2D_WipeAlpha3 : パラメータ mask が不正です
+Task_Eff2D_WipeAlpha3 : パラメータ mask が不正です
+Task_Eff2D_WipeAlpha3 : Parameter mask is invalid
+
+//Bytes=44,Offset=0x00591DA4
+//Task_Eff2D_WipeAlpha3 : 画像解像度エラー
+Task_Eff2D_WipeAlpha3 : 画像解像度エラー
+Task_Eff2D_WipeAlpha3 : Image res error
+
+//Bytes=40,Offset=0x00591FD8
+//kcTaskParticle > このタスクは3D専用です
+kcTaskParticle > このタスクは3D専用です
+kcTaskParticle > This task is 3D only
+
+//Bytes=52,Offset=0x005920E8
+//kcTaskRenderWipe : 32bitマスクを指定してください
+kcTaskRenderWipe : 32bitマスクを指定してください
+kcTaskRenderWipe : Please specify 32 bit mask
+
+//Bytes=40,Offset=0x0059259C
+//起動 : %dMB  現在 : %dMB  (%dMB used)
+起動 : %dMB  現在 : %dMB  (%dMB used)
+Start : %dMB Current : %dMB (%dMB used)
+
+//Bytes=60,Offset=0x005925C4
+//空きテクスチャメモリ  起動 : %dMB  現在 : %dMB  (%dMB used)
+空きテクスチャメモリ  起動 : %dMB  現在 : %dMB  (%dMB used)
+Free texture mem  Start : %dMB  Current : %dMB  (%dMB used)
+
+//Bytes=8,Offset=0x00592600
+//0x%08x
+0x%08x
+$nr$
+
+//Bytes=4,Offset=0x00592608
+//%f
+%f
+$nr$
+
+//Bytes=4,Offset=0x0059260C
+//ON
+ON
+$nr$
+
+//Bytes=4,Offset=0x00592610
+//OFF
+OFF
+$nr$
+
+//Bytes=8,Offset=0x00592614
+//0x%s
+0x%s
+$nr$
+
+//Bytes=4,Offset=0x0059261C
+//%ud
+%ud
+$nr$
+
+//Bytes=12,Offset=0x00592620
+//変数番号
+変数番号
+Variable #
+
+//Bytes=8,Offset=0x0059262C
+//数値
+数値
+Number
+
+//Bytes=8,Offset=0x00592634
+//文字列
+文字列
+String
+
+//Bytes=16,Offset=0x005962C4
+//ういんどみる
+ういんどみる
+Nibbles
+
+//Bytes=16,Offset=0x005962D4
+//Software\\%s\\%s
+Software\\%s\\%s
+$nr$
+
+//Bytes=12,Offset=0x005962E4
+//list filter
+list filter
+$nr$
+
+//Bytes=12,Offset=0x005962F0
+//list type
+list type
+$nr$
+
+//Bytes=16,Offset=0x005962FC
+//scenelist.csv
+scenelist.csv
+$nr$
+
+//Bytes=8,Offset=0x0059630C
+//error
+error
+$nr$
+
+//Bytes=32,Offset=0x00596314
+//コンパイル実行に失敗しました。
+コンパイル実行に失敗しました。
+Compile execution failed.
+
+//Bytes=16,Offset=0x00596368
+//--全て表示--
+--全て表示--
+--Show All--
+
+//Bytes=16,Offset=0x00596378
+//--モノローグ--
+--モノローグ--
+--Monologue--
+
+//Bytes=36,Offset=0x005963B8
+//子スクリプトは複数実行出来ません
+子スクリプトは複数実行出来ません
+Multiple child scripts can't be run
+
+//Bytes=12,Offset=0x005963DC
+//FE Script
+FE Script
+$nr$
+
+//Bytes=4,Offset=0x005963E8
+//fes
+fes
+$nr$
+
+//Bytes=12,Offset=0x005963EC
+//KCS Script
+KCS Script
+$nr$
+
+//Bytes=4,Offset=0x005963F8
+//kcs
+kcs
+$nr$
+
+//Bytes=12,Offset=0x005963FC
+//Java Script
+Java Script
+$nr$
+
+//Bytes=12,Offset=0x00596408
+//javascript
+javascript
+$nr$
+
+//Bytes=16,Offset=0x00596414
+//activate.dat
+activate.dat
+$nr$
+
+//Bytes=16,Offset=0x00596424
+//システムエラー
+システムエラー
+System Error
+
+//Bytes=40,Offset=0x00596434
+//ユニークコードの保存に失敗しました。
+ユニークコードの保存に失敗しました。
+Failed to save unique code.
+
+//Bytes=52,Offset=0x00596638
+//パッケージファイル [%s] のオープンに失敗しました。
+パッケージファイル [%s] のオープンに失敗しました。
+Failed to open package file [%s].
+
+//Bytes=52,Offset=0x0059666C
+//パッケージファイル [%s] の読み込みに失敗しました。
+パッケージファイル [%s] の読み込みに失敗しました。
+Failed to load package file [%s].
+
+//Bytes=48,Offset=0x005966A0
+//壁紙ファイル [%s] の情報取得に失敗しました。
+壁紙ファイル [%s] の情報取得に失敗しました。
+Failed to get information on wallpaper [%s].
+
+//Bytes=48,Offset=0x005966D0
+//壁紙ファイル [%s] の読み込みに失敗しました。
+壁紙ファイル [%s] の読み込みに失敗しました。
+Failed to load wallpaper file [%s].
+
+//Bytes=4,Offset=0x00596700
+//bmp
+bmp
+$nr$
+
+//Bytes=20,Offset=0x00596704
+//壁紙ファイル(*.bmp)
+壁紙ファイル(*.bmp)
+Wallpapers (*.bmp)
+
+//Bytes=8,Offset=0x00596718
+//*.bmp
+*.bmp
+$nr$
+
+//Bytes=20,Offset=0x00596720
+//てのファイル(*.*)
+てのファイル(*.*)
+All Files (*.*)
+
+//Bytes=4,Offset=0x00596734
+//*
+*
+$nr$
+
+//Bytes=40,Offset=0x00596738
+//壁紙ファイルの保存先を指定して下さい
+壁紙ファイルの保存先を指定して下さい
+Specify save location of the wallpaper
+
+//Bytes=28,Offset=0x00596760
+//出力先ファイルが開けません
+出力先ファイルが開けません
+Cannot open the output file
+
+//Bytes=40,Offset=0x0059677C
+//壁紙ファイルの書き込みに失敗しました
+壁紙ファイルの書き込みに失敗しました
+Writing wallpaper file failed
+
+//Bytes=24,Offset=0x00596970
+//サウンドセットの登録
+サウンドセットの登録
+Register Sound Set
+
+//Bytes=96,Offset=0x00596988
+//サウンドファイルを保存しました。これらのファイルをウィンドウズのサウンドセットに登録しますか？
+サウンドファイルを保存しました。これらのファイルをウィンドウズのサウンドセットに登録しますか？
+Sound file saved. Would you like to register these files in the Windows sound set?
+
+//Bytes=52,Offset=0x005969E8
+//セット定義ファイル[%s]のオープンに失敗しました。
+セット定義ファイル[%s]のオープンに失敗しました。
+An attempt to open the set dst file [%s] failed.
+
+//Bytes=52,Offset=0x00596A1C
+//セット定義ファイル[%s]の読み込みに失敗しました。
+セット定義ファイル[%s]の読み込みに失敗しました。
+Failed to read set definition file [%s].
+
+//Bytes=40,Offset=0x00596A50
+//サウンドセットの登録に失敗しました。
+サウンドセットの登録に失敗しました。
+Failed to register the sound set.
+
+//Bytes=24,Offset=0x00596A78
+//サウンドセットの変更
+サウンドセットの変更
+Change Sound Set
+
+//Bytes=72,Offset=0x00596A90
+//サウンドセットを登録しました。登録されたサウンドセットに変更しますか？
+サウンドセットを登録しました。登録されたサウンドセットに変更しますか？
+Sound set registered. Change to the registered sound set?
+
+//Bytes=12,Offset=0x00596AD8
+//登録完了
+登録完了
+Registered
+
+//Bytes=132,Offset=0x00596AE8
+//サウンドセットの変更や破棄を行う場合は［コントロールパネル］－［サウンド（又はサウンドとオーディオデバイス）］から行ってください。
+サウンドセットの変更や破棄を行う場合は［コントロールパネル］－［サウンド（又はサウンドとオーディオデバイス）］から行ってください。
+To change or discard the sound set, please go to [Control Panel] - [Sound (or sound and audio device)].
+
+//Bytes=40,Offset=0x00596B6C
+//サウンドセットの変更に失敗しました。
+サウンドセットの変更に失敗しました。
+Failed to change the sound set.
+
+//Bytes=12,Offset=0x00596B94
+//変更完了
+変更完了
+Changed
+
+//Bytes=164,Offset=0x00596BA0
+//サウンドセットを変更しました。\nサウンドセットの変更や破棄を行う場合は［コントロールパネル］－［サウンド（又はサウンドとオーディオデバイス）］から行ってください。
+Sound set changed. To change or destroy the sound set, please go from [Control Panel] - [Sound (or sound and audio device)].
+$nr$
+
+//Bytes=28,Offset=0x00596F9C
+//画像ファイル(bmp/png/jpg)
+画像ファイル(bmp/png/jpg)
+Image file (bmp/​​png/jpg)
+
+//Bytes=16,Offset=0x00596FB8
+//bmp;*.png;*.jpg
+bmp;*.png;*.jpg
+$nr$
+
+//Bytes=32,Offset=0x00596FCC
+//画像ファイルを選択してください
+画像ファイルを選択してください
+Please select an image file
+
+//Bytes=12,Offset=0x00596FEC
+//上書き確認
+上書き確認
+Overwrite
+
+//Bytes=68,Offset=0x00596FF8
+//同名のファイルが既に登録されています。上書きしてもよろしいですか？
+同名のファイルが既に登録されています。上書きしてもよろしいですか？
+A file with the same name already exists. Overwrite it?
+
+//Bytes=8,Offset=0x0059703C
+//movie
+movie
+$nr$
+
+//Bytes=4,Offset=0x00597044
+//kx2
+kx2
+$nr$
+
+//Bytes=4,Offset=0x00597048
+//kx3
+kx3
+$nr$
+
+//Bytes=8,Offset=0x0059704C
+//veff
+veff
+$nr$
+
+//Bytes=36,Offset=0x00597054
+//セーブデータの作成に失敗しました
+セーブデータの作成に失敗しました
+Creation of save data failed
+
+//Bytes=56,Offset=0x00597078
+//ファイル読み込みに失敗しました -File not found- : %s
+ファイル読み込みに失敗しました -File not found- : %s
+File reading failed - File not found- : %s
+
+//Bytes=60,Offset=0x005970B0
+//ファイル読み込みに失敗しました -Can't alloc memory- : %s
+ファイル読み込みに失敗しました -Can't alloc memory- : %s
+File reading failed -Can't alloc memory- : %s
+
+//Bytes=56,Offset=0x005970EC
+//ファイル読み込みに失敗しました -File read error- : %s
+ファイル読み込みに失敗しました -File read error- : %s
+File reading failed -File read error- : %s
+
+//Bytes=8,Offset=0x00597124
+//export
+export
+$nr$
+
+//Bytes=40,Offset=0x0059712C
+//名前テーブルファイルのオープンに失敗
+名前テーブルファイルのオープンに失敗
+Failed to open name table file
+
+//Bytes=4,Offset=0x00597154
+//bmb
+bmb
+$nr$
+
+//Bytes=16,Offset=0x00597158
+//system error
+system error
+$nr$
+
+//Bytes=24,Offset=0x00597168
+//テキスト書き込み失敗
+テキスト書き込み失敗
+Text write failure
+
+//Bytes=4,Offset=0x00597180
+//@
+@
+$nr$
+
+//Bytes=4,Offset=0x00597184
+//＠
+＠
+$nr$
+
+//Bytes=40,Offset=0x00597188
+//背景テーブルファイルのオープンに失敗
+背景テーブルファイルのオープンに失敗
+Failed to open background table file
+
+//Bytes=36,Offset=0x005971B0
+//CGリストファイルのオープンに失敗
+CGリストファイルのオープンに失敗
+Failed to open CG list file
+
+//Bytes=12,Offset=0x005971D4
+//database
+database
+$nr$
+
+//Bytes=60,Offset=0x005971E0
+//スクリプトコマンド fopen のオープンモードが正しくありません
+スクリプトコマンド fopen のオープンモードが正しくありません
+The open mode of the script command fopen is incorrect
+
+//Bytes=8,Offset=0x0059721C
+//ptcl
+ptcl
+$nr$
+
+//Bytes=8,Offset=0x00597224
+//ptclpi
+ptclpi
+$nr$
+
+//Bytes=32,Offset=0x0059722C
+//Can't find LoopPointFile : %s
+Can't find LoopPointFile : %s
+$nr$
+
+//Bytes=4,Offset=0x0059724C
+//"
+"
+$nr$
+
+//Bytes=36,Offset=0x00597250
+//set loop point : %s %lld → %lld
+set loop point : %s %lld → %lld
+$nr$
+
+//Bytes=4,Offset=0x00597274
+//mot
+mot
+$nr$
+
+//Bytes=12,Offset=0x005972A0
+//Software\\%s
+Software\\%s
+$nr$
+
+//Bytes=44,Offset=0x005972AC
+//レジストリ [%s] のオープンに失敗しました
+レジストリ [%s] のオープンに失敗しました
+Failed to open registry [%s]
+
+//Bytes=44,Offset=0x005972D8
+//レジストリ [%s\\%s] の読み込みに失敗しました
+レジストリ [%s\\%s] の読み込みに失敗しました
+Failed to load registry [%s\\%s]
+
+//Bytes=48,Offset=0x00597304
+//レジストリ [%s\\%s] への書き込みに失敗しました
+レジストリ [%s\\%s] への書き込みに失敗しました
+Failed to write to registry [%s\\%s]
+
+//Bytes=32,Offset=0x00597380
+//SetStrVar > lpStrVar == NULL!
+SetStrVar > lpStrVar == NULL!
+$nr$
+
+//Bytes=40,Offset=0x005973A0
+//SetStrVar > パラメータに誤りがあります
+SetStrVar > パラメータに誤りがあります
+SetStrVar > parameter is invalid
+
+//Bytes=32,Offset=0x005973C8
+//GetStrVar > lpStrVar == NULL!
+GetStrVar > lpStrVar == NULL!
+$nr$
+
+//Bytes=32,Offset=0x005973E8
+//SetVar > lpInterpreter == NULL!
+SetVar > lpInterpreter == NULL!
+$nr$
+
+//Bytes=36,Offset=0x00597408
+//SetVar > パラメータに誤りがあります
+SetVar > パラメータに誤りがあります
+SetVar > parameter is invalid
+
+//Bytes=32,Offset=0x0059742C
+//GetVar > lpInterpreter == NULL!
+GetVar > lpInterpreter == NULL!
+$nr$
+
+//Bytes=48,Offset=0x0059744C
+//cfIsExecMotion > オブジェクトを指定して下さい
+cfIsExecMotion > オブジェクトを指定して下さい
+cfIsExecMotion > Please specify object
+
+//Bytes=40,Offset=0x0059747C
+//cfGetRawInput > 引数に誤りがあります
+cfGetRawInput > 引数に誤りがあります
+cfGetRawInput > Invalid argument
+
+//Bytes=52,Offset=0x005974A4
+//cfGetRawInput > 引数は0～255までのキーコードです
+cfGetRawInput > 引数は0～255までのキーコードです
+cfGetRawInput > Argument is key code from 0 to 255
+
+//Bytes=36,Offset=0x005974D8
+//cfCalc > パラメータに誤りがあります
+cfCalc > パラメータに誤りがあります
+cfCalc > The parameter is incorrect
+
+//Bytes=16,Offset=0x005974FC
+//save%04d.dat
+save%04d.dat
+$nr$
+
+//Bytes=32,Offset=0x0059750C
+//cvMouseX > 読み取り専用変数です
+cvMouseX > 読み取り専用変数です
+cvMouseX > Variable is readonly
+
+//Bytes=32,Offset=0x0059752C
+//cvMouseY > 読み取り専用変数です
+cvMouseY > 読み取り専用変数です
+cvMouseY > Variable is readonly
+
+//Bytes=44,Offset=0x0059797C
+//CsImage::Load > パラメータに誤りがあります
+CsImage::Load > パラメータに誤りがあります
+CsImage::Load > Parameter is incorrect
+
+//Bytes=48,Offset=0x005979A8
+//CsImage::Create > パラメータに誤りがあります
+CsImage::Create > パラメータに誤りがあります
+CsImage::Create > Parameter is incorrect
+
+//Bytes=56,Offset=0x005979D8
+//CsImage::SetPlane > CsPlaneオブジェクトを指定して下さい
+CsImage::SetPlane > CsPlaneオブジェクトを指定して下さい
+CsImage::SetPlane > Please specify a CsPlane object
+
+//Bytes=44,Offset=0x00597A10
+//CsImage::Copy > パラメータに誤りがあります
+CsImage::Copy > パラメータに誤りがあります
+CsImage::Copy > Parameter is incorrect
+
+//Bytes=80,Offset=0x00597A40
+//CsImage::Copy > CsImageオブジェクト又はCsStrImageオブジェクトを指定して下さい
+CsImage::Copy > CsImageオブジェクト又はCsStrImageオブジェクトを指定して下さい
+CsImage::Copy > Please specify CsImage object or CsStrImage object
+
+//Bytes=44,Offset=0x00597A90
+//CsImage::width > 読み取り専用パラメータです
+CsImage::width > 読み取り専用パラメータです
+CsImage::width> Parameter is read-only
+
+//Bytes=48,Offset=0x00597ABC
+//CsImage::height > 読み取り専用パラメータです
+CsImage::height > 読み取り専用パラメータです
+CsImage::height > Parameter is read-only
+
+//Bytes=48,Offset=0x00597C20
+//CsImage::SetColor > パラメータに誤りがあります
+CsImage::SetColor > パラメータに誤りがあります
+CsImage::SetColor > Parameter is incorrect
+
+//Bytes=56,Offset=0x00597C50
+//CsImage::SetShadowColor > パラメータに誤りがあります
+CsImage::SetShadowColor > パラメータに誤りがあります
+CsImage::SetShadowColor > Parameter is incorrect
+
+//Bytes=52,Offset=0x00597C88
+//CsImage::SetFontSize > パラメータに誤りがあります
+CsImage::SetFontSize > パラメータに誤りがあります
+CsImage::SetFontSize > Parameter is incorrect
+
+//Bytes=52,Offset=0x00597CBC
+//CsImage::SetRubySize > パラメータに誤りがあります
+CsImage::SetRubySize > パラメータに誤りがあります
+CsImage::SetRubySize > Parameter is incorrect
+
+//Bytes=48,Offset=0x00597CF0
+//CsStrImage::width > 読み取り専用パラメータです
+CsStrImage::width > 読み取り専用パラメータです
+CsStrImage::width > Parameter is read-only
+
+//Bytes=48,Offset=0x00597D20
+//CsStrImage::height > 読み取り専用パラメータです
+CsStrImage::height > 読み取り専用パラメータです
+CsStrImage::height > Parameter is read-only
+
+//Bytes=52,Offset=0x00597D50
+//CsStrImage::drawing > 読み取り専用パラメータです
+CsStrImage::drawing > 読み取り専用パラメータです
+CsStrImage::drawing > Parameter is read-only
+
+//Bytes=48,Offset=0x00597DB0
+//CsCPlane::width > 読み取り専用パラメータです
+CsCPlane::width > 読み取り専用パラメータです
+CsCPlane::width > Parameter is read-only
+
+//Bytes=48,Offset=0x00597DE0
+//CsCPlane::height > 読み取り専用パラメータです
+CsCPlane::height > 読み取り専用パラメータです
+CsCPlane::height > Parameter is read-only
+
+//Bytes=68,Offset=0x00597E78
+//CsTask::BootTask > パラメータに誤りがあります。"kcs" / "fes" / "js"
+CsTask::BootTask > パラメータに誤りがあります。"kcs" / "fes" / "js"
+CsTask::BootTask > The parameter is incorrect. "kcs" / "fes" / "js"
+
+//Bytes=52,Offset=0x00597EBC
+//CsTask::BootTask > 別タスクが全てに起動されています
+CsTask::BootTask > 別タスクが全てに起動されています
+CsTask::BootTask > Different tasks are all started
+
+//Bytes=4,Offset=0x00597EF0
+//js
+js
+$nr$
+
+//Bytes=44,Offset=0x00597EF4
+//CsTask::BootTask > タスク起動に失敗しました
+CsTask::BootTask > タスク起動に失敗しました
+CsTask::BootTask > Failed to start task
+
+//Bytes=52,Offset=0x00597F20
+//CsTask::LoadScript > パラメータに誤りがあります。
+CsTask::LoadScript > パラメータに誤りがあります。
+CsTask::LoadScript > Parameter is incorrect
+
+//Bytes=48,Offset=0x00597F54
+//CsTask::LoadScript > タスク起動されていません
+CsTask::LoadScript > タスク起動されていません
+CsTask::LoadScript > Task not activated
+
+//Bytes=48,Offset=0x00597F84
+//CsTask::exitcode > 読み取り専用パラメータです
+CsTask::exitcode > 読み取り専用パラメータです
+CsTask::exitcode > Parameter is read-only
+
+//Bytes=44,Offset=0x00597FC8
+//kcTaskJavaScriptObj_CsObjGroup デストラクタ
+kcTaskJavaScriptObj_CsObjGroup デストラクタ
+kcTaskJavaScriptObj_CsObjGroup Destructor
+
+//Bytes=8,Offset=0x00597FF4
+//regist
+regist
+$nr$
+
+//Bytes=12,Offset=0x00597FFC
+//unregist
+unregist
+$nr$
+
+//Bytes=12,Offset=0x00598008
+//getObjects
+getObjects
+$nr$
+
+//Bytes=44,Offset=0x00598014
+//CsObjGroup::Regist > 引数に誤りがあります
+CsObjGroup::Regist > 引数に誤りがあります
+CsObjGroup::Regist > Invalid argument
+
+//Bytes=52,Offset=0x00598040
+//CsObjGroup::Regist > オブジェクトを指定して下さい
+CsObjGroup::Regist > オブジェクトを指定して下さい
+CsObjGroup::Regist > Please specify an object
+
+//Bytes=72,Offset=0x00598078
+//CsObjGroup::Regist > 登録済みのオブジェクトを再登録しようとしています
+CsObjGroup::Regist > 登録済みのオブジェクトを再登録しようとしています
+CsObjGroup::Regist > Your are about to reregister a registered object
+
+//Bytes=44,Offset=0x005980C0
+//CsObjGroup::Unregist > 引数に誤りがあります
+CsObjGroup::Unregist > 引数に誤りがあります
+CsObjGroup::Unregist Invalid argument
+
+//Bytes=40,Offset=0x00598130
+//CsDatabase::Load > パラメータが不正です
+CsDatabase::Load > パラメータが不正です
+CsDatabase::Load > Parameter is invalid
+
+//Bytes=48,Offset=0x00598158
+//データベースファイル %s がオープンできません。
+データベースファイル %s がオープンできません。
+The database file %s can not be opened.
+
+//Bytes=56,Offset=0x00598188
+//CsDatabase::Load > データベースの読み込みに失敗しました
+CsDatabase::Load > データベースの読み込みに失敗しました
+CsDatabase::Load > Database load failed
+
+//Bytes=52,Offset=0x00598270
+//CsToolWindow::Create > ウィンドウは既に作成済みです
+CsToolWindow::Create > ウィンドウは既に作成済みです
+CsToolWindow::Create > Window already created
+
+//Bytes=12,Offset=0x005982A4
+//ToolWindow
+ToolWindow
+$nr$
+
+//Bytes=16,Offset=0x005982B0
+//ClickHandler
+ClickHandler
+$nr$
+
+//Bytes=52,Offset=0x005982C0
+//CsToolWindow::cursor_x > 読み取り専用パラメータです
+CsToolWindow::cursor_x > 読み取り専用パラメータです
+CsToolWindow::cursor_x > Parameter is read-only
+
+//Bytes=52,Offset=0x005982F4
+//CsToolWindow::cursor_y > 読み取り専用パラメータです
+CsToolWindow::cursor_y > 読み取り専用パラメータです
+CsToolWindow::cursor_y > Parameter is read-only
+
+//Bytes=60,Offset=0x00598370
+//このゲームには DirectX 9.0c 以上が必要です。(code : 0x%x)
+このゲームには DirectX 9.0c 以上が必要です。(code : 0x%x)
+This game requires DirectX 9.0c or higher. (code: 0x%x)
+
+//Bytes=12,Offset=0x005983AC
+//Boot Error
+Boot Error
+$nr$
+
+//Bytes=108,Offset=0x005983B8
+//古いバージョンの DirectX 9.0c がインストールされています。 最新の DirectX 9.0c をインストールしてください。
+古いバージョンの DirectX 9.0c がインストールされています。 最新の DirectX 9.0c をインストールしてください。
+An older version of DirectX 9.0c is installed. Please install the latest DirectX 9.0c.
+
+//Bytes=40,Offset=0x00598424
+//kcD3DCore9クラスは複数作成出来ません
+kcD3DCore9クラスは複数作成出来ません
+Multiple kcD3DCore9's cannot be created
+
+//Bytes=32,Offset=0x0059844C
+//Direct3Dオブジェクト作成に失敗
+Direct3Dオブジェクト作成に失敗
+Failed to create Direct3D obj
+
+//Bytes=48,Offset=0x0059846C
+//現在のディスプレイモードの取得に失敗しました
+現在のディスプレイモードの取得に失敗しました
+Failed to acquire the current display mode
+
+//Bytes=28,Offset=0x0059849C
+//Direct3D が使用出来ません
+Direct3D が使用出来ません
+Direct3D can not be used
+
+//Bytes=24,Offset=0x005984B8
+//BACKBUFFER MODE : %d
+BACKBUFFER MODE : %d
+$nr$
+
+//Bytes=28,Offset=0x005984D0
+//Direct3Dデバイス作成に失敗
+Direct3Dデバイス作成に失敗
+Didn't make D3D device
+
+//Bytes=28,Offset=0x005984EC
+//Direct3D を初期化しました
+Direct3D を初期化しました
+Direct3D was initialized
+
+//Bytes=40,Offset=0x00598508
+//render target format (32bit) > A8R8G8B8
+render target format (32bit) > A8R8G8B8
+$nr$
+
+//Bytes=40,Offset=0x00598530
+//render target format (32bit) > X8R8G8B8
+render target format (32bit) > X8R8G8B8
+$nr$
+
+//Bytes=40,Offset=0x00598558
+//render target format (16bit) > A4R4G4B4
+render target format (16bit) > A4R4G4B4
+$nr$
+
+//Bytes=40,Offset=0x00598580
+//render target format (16bit) > R5G6B5
+render target format (16bit) > R5G6B5
+$nr$
+
+//Bytes=36,Offset=0x005985A8
+//---- PixelShader [%s] Error ----
+---- PixelShader [%s] Error ----
+$nr$
+
+//Bytes=28,Offset=0x005985CC
+//CreatePixelShader FAILED
+CreatePixelShader FAILED
+$nr$
+
+//Bytes=36,Offset=0x005985E8
+//--------------------------------
+--------------------------------
+$nr$
+
+//Bytes=36,Offset=0x0059860C
+//レンダリングターゲット変更に失敗 1
+レンダリングターゲット変更に失敗 1
+Rendering target change failed 1
+
+//Bytes=36,Offset=0x00598630
+//レンダリングターゲット変更に失敗 2
+レンダリングターゲット変更に失敗 2
+Rendering target change failed 2
+
+//Bytes=36,Offset=0x00598654
+//レンダリングターゲット変更に失敗 3
+レンダリングターゲット変更に失敗 3
+Rendering target change failed 3
+
+//Bytes=36,Offset=0x00598678
+//レンダリングターゲット変更に失敗 4
+レンダリングターゲット変更に失敗 4
+Rendering target change failed 4
+
+//Bytes=36,Offset=0x0059869C
+//レンダリングターゲット変更に失敗 5
+レンダリングターゲット変更に失敗 5
+Rendering target change failed 5
+
+//Bytes=52,Offset=0x005986C0
+//DrawVertexBufferUP > ERROR SetVertexShader (%d:%x)
+DrawVertexBufferUP > ERROR SetVertexShader (%d:%x)
+$nr$
+
+//Bytes=52,Offset=0x005986F4
+//DrawVertexBufferUP > ERROR DrawPrimitiveUP (%d:%x)
+DrawVertexBufferUP > ERROR DrawPrimitiveUP (%d:%x)
+$nr$
+
+//Bytes=32,Offset=0x00598728
+//テクスチャ作成に失敗しました
+テクスチャ作成に失敗しました
+Texture creation failed
+
+//Bytes=60,Offset=0x00598748
+//レンダリングテクスチャ作成に失敗しました1(%d) : %d (0x%08x)
+レンダリングテクスチャ作成に失敗しました1(%d) : %d (0x%08x)
+Rendering texture creation failed 1 (%d) : %d (0x%08x)
+
+//Bytes=60,Offset=0x00598784
+//レンダリングテクスチャ作成に失敗しました2(%d) : %d (0x%08x)
+レンダリングテクスチャ作成に失敗しました2(%d) : %d (0x%08x)
+Rendering texture creation failed 2 (%d) : %d (0x%08x)
+
+//Bytes=40,Offset=0x005987C0
+//CopyTexture : フォーマットエラーです
+CopyTexture : フォーマットエラーです
+CopyTexture : Format error
+
+//Bytes=16,Offset=0x005987E8
+//Change Cursor
+Change Cursor
+$nr$
+
+//Bytes=28,Offset=0x005987F8
+//カーソル設定に失敗しました
+カーソル設定に失敗しました
+Failed to set cursor
+
+//Bytes=8,Offset=0x00598830
+//@kcView
+@kcView
+$nr$
+
+//Bytes=8,Offset=0x00598838
+//pl%d
+pl%d
+$nr$
+
+//Bytes=40,Offset=0x00598840
+//kcView : 3Dモードの初期化に失敗しました
+kcView : 3Dモードの初期化に失敗しました
+kcView : Initialize of 3D mode failed
+
+//Bytes=32,Offset=0x00598868
+//kcView : 3Dモードを使用します
+kcView : 3Dモードを使用します
+kcView : Use 3D mode
+
+//Bytes=44,Offset=0x00598888
+//kcView : 未定義の動作モードが指定されました
+kcView : 未定義の動作モードが指定されました
+kcView : Undefined operation mode specified
+
+//Bytes=44,Offset=0x00598988
+//vecSortRight : 頂点数が 128 を超えています
+vecSortRight : 頂点数が 128 を超えています
+vecSortRight : Num of vertices exceeds 128
+
+//Bytes=36,Offset=0x005989D0
+//親ウィンドウがセットされていません
+親ウィンドウがセットされていません
+Parent window is not set
+
+//Bytes=16,Offset=0x005989F4
+//DirectXエラー
+DirectXエラー
+DirectX error
+
+//Bytes=32,Offset=0x00598A04
+//DirectX の初期化に失敗しました
+DirectX の初期化に失敗しました
+DirectX initialization failed
+
+//Bytes=80,Offset=0x00598A28
+//kc2DTextureManager : X分割サイズが 2 の乗数になっていません。自動調整します。
+kc2DTextureManager : X分割サイズが 2 の乗数になっていません。自動調整します。
+kc2DTextureManager : X split size is not a multiple of 2. Automatically adjust.
+
+//Bytes=80,Offset=0x00598A78
+//kc2DTextureManager : Y分割サイズが 2 の乗数になっていません。自動調整します。
+kc2DTextureManager : Y分割サイズが 2 の乗数になっていません。自動調整します。
+kc2DTextureManager : Y split size is not a multiple of 2. Automatically adjust.
+
+//Bytes=44,Offset=0x00598AC8
+//0未満の深度のプレーンを作成しようとしました
+0未満の深度のプレーンを作成しようとしました
+Attempted to make plane with depth < 0
+
+//Bytes=32,Offset=0x00598AF4
+//カーソルは複数作成出来ません
+カーソルは複数作成出来ません
+Cannot create multiple cursors
+
+//Bytes=40,Offset=0x00598BA8
+//4 を超える bpp はサポートしていません
+4 を超える bpp はサポートしていません
+Bpp greater than 4 not supported
+
+//Bytes=52,Offset=0x00598BD0
+//プレーンバッファの確保に失敗しました : size = %d
+プレーンバッファの確保に失敗しました : size = %d
+Failed to secure plane buffer : size = %d
+
+//Bytes=32,Offset=0x00598DEC
+//using multithread image copy
+using multithread image copy
+$nr$
+
+//Bytes=28,Offset=0x00598E0C
+//サポートしていないBPPです
+サポートしていないBPPです
+This BPP is not supported
+
+//Bytes=40,Offset=0x00598E28
+//[%d to %d] この形式のコピーは未対応です
+[%d to %d] この形式のコピーは未対応です
+[%d to %d] Format copy is not supported
+
+//Bytes=36,Offset=0x00598E50
+//拡大縮小コピーは対応していません
+拡大縮小コピーは対応していません
+Scaling copy is not supported
+
+//Bytes=8,Offset=0x00598E74
+//sx = %d
+sx = %d
+$nr$
+
+//Bytes=8,Offset=0x00598E7C
+//sy = %d
+sy = %d
+$nr$
+
+//Bytes=8,Offset=0x00598E84
+//dx = %d
+dx = %d
+$nr$
+
+//Bytes=8,Offset=0x00598E8C
+//dy = %d
+dy = %d
+$nr$
+
+//Bytes=24,Offset=0x00598E94
+//sx=%d, sdx=%d, psx=%d
+sx=%d, sdx=%d, psx=%d
+$nr$
+
+//Bytes=24,Offset=0x00598EAC
+//sy=%d, sdy=%d, psy=%d
+sy=%d, sdy=%d, psy=%d
+$nr$
+
+//Bytes=24,Offset=0x00598EC4
+//dx=%d, ddx=%d, pdx=%d
+dx=%d, ddx=%d, pdx=%d
+$nr$
+
+//Bytes=24,Offset=0x00598EDC
+//dy=%d, ddy=%d, pdy=%d
+dy=%d, ddy=%d, pdy=%d
+$nr$
+
+//Bytes=44,Offset=0x00598EF4
+//[%d] この形式の矩形塗りつぶしは未対応です
+[%d] この形式の矩形塗りつぶしは未対応です
+[%d] This rect fill type is not supported
+
+//Bytes=16,Offset=0x00598F34
+//不正な bpp です
+不正な bpp です
+Illegal bpp
+
+//Bytes=48,Offset=0x00598F44
+//ピクセルイメージ用バッファの確保に失敗しました
+ピクセルイメージ用バッファの確保に失敗しました
+Failed to allocate pixel buffer for image
+
+//Bytes=40,Offset=0x00598F74
+//qs・\n・#,?展開できないイメージです
+qs・\n・#,?展開できないイメージです
+$nr$
+
+//Bytes=28,Offset=0x00598F9C
+//サポート外BPPです  bpp=%d
+サポート外BPPです  bpp=%d
+Unsupported BPP  bpp=%d
+
+//Bytes=36,Offset=0x00598FB8
+//未知のデータ形式が選択されました:%s
+未知のデータ形式が選択されました:%s
+Unknown data format selected:%s
+
+//Bytes=36,Offset=0x00598FDC
+//イメージのコピーに失敗しました:%s
+イメージのコピーに失敗しました:%s
+Image copy failed:%s
+
+//Bytes=32,Offset=0x00599000
+//イメージの保存に失敗しました:%s
+イメージの保存に失敗しました:%s
+Image saving failed:%s
+
+//Bytes=36,Offset=0x00599020
+//ファイルのオープンに失敗しました:%s
+ファイルのオープンに失敗しました:%s
+File open failed:%s
+
+//Bytes=36,Offset=0x00599044
+//ファイルの書き込みに失敗しました:%s
+ファイルの書き込みに失敗しました:%s
+File write failed:%s
+
+//Bytes=36,Offset=0x00599068
+//未知のデータ形式が選択されました
+未知のデータ形式が選択されました
+Unknown data format selected
+
+//Bytes=32,Offset=0x0059908C
+//イメージのコピーに失敗しました
+イメージのコピーに失敗しました
+Failed to copy image
+
+//Bytes=32,Offset=0x005990AC
+//イメージの保存に失敗しました
+イメージの保存に失敗しました
+Image saving failed
+
+//Bytes=28,Offset=0x00599204
+//イメージのタイプが違います
+イメージのタイプが違います
+Image type is different
+
+//Bytes=40,Offset=0x005992AC
+//HG2(%d) : 対応するIDが見つかりません
+HG2(%d) : 対応するIDが見つかりません
+HG2 (%d): Can't find corresponding ID
+
+//Bytes=32,Offset=0x005992D4
+//HG2 : 未対応のバージョンです
+HG2 : 未対応のバージョンです
+$nr$
+
+//Bytes=24,Offset=0x005992F4
+//HG2 : ヘッダが違います
+HG2 : ヘッダが違います
+HG2 : Unsupported versn
+
+//Bytes=44,Offset=0x0059930C
+//kcImageHg2 : バイト領域のサイズが異常です
+kcImageHg2 : バイト領域のサイズが異常です
+kcImageHg2 : The byte area size is abnormal
+
+//Bytes=44,Offset=0x00599338
+//kcImageHg2 : ビット領域のサイズが異常です
+kcImageHg2 : ビット領域のサイズが異常です
+kcImageHg 2: The bit area size is abnormal
+
+//Bytes=32,Offset=0x00599364
+//この色数には対応していません
+この色数には対応していません
+This color num is not supported
+
+//Bytes=24,Offset=0x005993E0
+//HG3 : ヘッダが違います
+HG3 : ヘッダが違います
+HG3 : Header is wrong
+
+//Bytes=32,Offset=0x005993F8
+//HG3 : ヘッダサイズが違います
+HG3 : ヘッダサイズが違います
+HG3 : Header size is different
+
+//Bytes=44,Offset=0x00599418
+//kcImageHg3 : バイト領域のサイズが異常です
+kcImageHg3 : バイト領域のサイズが異常です
+kcImageHg 3: The byte area size is abnormal
+
+//Bytes=44,Offset=0x00599444
+//kcImageHg3 : ビット領域のサイズが異常です
+kcImageHg3 : ビット領域のサイズが異常です
+kcImageHg 3: The bit area size is abnormal
+
+//Bytes=32,Offset=0x00599500
+//ヒープ領域の作成に失敗しました
+ヒープ領域の作成に失敗しました
+Creation of heap area failed
+
+//Bytes=52,Offset=0x00599520
+//ヒープを作成しました。 size = %d (0x%x) byte (%fMB)
+ヒープを作成しました。 size = %d (0x%x) byte (%fMB)
+Created heap. size = %d (0x%x) byte (%fMB)
+
+//Bytes=24,Offset=0x00599554
+//ヒープを破棄しました。
+ヒープを破棄しました。
+Heap discarded.
+
+//Bytes=56,Offset=0x0059956C
+//メモリが確保出来ませんでした  id = %d  size = %d(0x%x)
+メモリが確保出来ませんでした  id = %d  size = %d(0x%x)
+Memory could not be secured  id = %d size = %d (0x%x)
+
+//Bytes=24,Offset=0x005995A8
+//rect構造体が未定義です
+rect構造体が未定義です
+rect strct is undefined
+
+//Bytes=28,Offset=0x005995C0
+//\\VarFileInfo\\Translation
+\\VarFileInfo\\Translation
+$nr$
+
+//Bytes=32,Offset=0x005995DC
+//\\StringFileInfo\\%08x\\Comments
+\\StringFileInfo\\%08x\\Comments
+$nr$
+
+//Bytes=36,Offset=0x005995FC
+//\\StringFileInfo\\%08x\\CompanyName
+\\StringFileInfo\\%08x\\CompanyName
+$nr$
+
+//Bytes=40,Offset=0x00599620
+//\\StringFileInfo\\%08x\\FileDescription
+\\StringFileInfo\\%08x\\FileDescription
+$nr$
+
+//Bytes=36,Offset=0x00599648
+//\\StringFileInfo\\%08x\\FileVersion
+\\StringFileInfo\\%08x\\FileVersion
+$nr$
+
+//Bytes=36,Offset=0x0059966C
+//\\StringFileInfo\\%08x\\InternalName
+\\StringFileInfo\\%08x\\InternalName
+$nr$
+
+//Bytes=36,Offset=0x00599690
+//\\StringFileInfo\\%08x\\LegalCopyright
+\\StringFileInfo\\%08x\\LegalCopyright
+$nr$
+
+//Bytes=40,Offset=0x005996B4
+//\\StringFileInfo\\%08x\\LegalTrademarks
+\\StringFileInfo\\%08x\\LegalTrademarks
+$nr$
+
+//Bytes=40,Offset=0x005996DC
+//\\StringFileInfo\\%08x\\OriginalFilename
+\\StringFileInfo\\%08x\\OriginalFilename
+$nr$
+
+//Bytes=36,Offset=0x00599704
+//\\StringFileInfo\\%08x\\ProductName
+\\StringFileInfo\\%08x\\ProductName
+$nr$
+
+//Bytes=36,Offset=0x00599728
+//\\StringFileInfo\\%08x\\ProductVersion
+\\StringFileInfo\\%08x\\ProductVersion
+$nr$
+
+//Bytes=36,Offset=0x0059974C
+//\\StringFileInfo\\%08x\\PrivateBuild
+\\StringFileInfo\\%08x\\PrivateBuild
+$nr$
+
+//Bytes=36,Offset=0x00599770
+//\\StringFileInfo\\%08x\\SpecialBuild
+\\StringFileInfo\\%08x\\SpecialBuild
+$nr$
+
+//Bytes=16,Offset=0x00599794
+//version : %s
+version : %s
+$nr$
+
+//Bytes=12,Offset=0x005997B0
+//囮劔劔>ﾀ:
+囮劔劔>ﾀ:
+$nr$
+
+//Bytes=40,Offset=0x005AFC20
+//kcVideo : %s は未知のファイルタイプです
+kcVideo : %s は未知のファイルタイプです
+kcVideo : %s is an unknown file type
+
+//Bytes=52,Offset=0x005AFD00
+//kcVideo : フィルタグラフインターフェイス取得に失敗
+kcVideo : フィルタグラフインターフェイス取得に失敗
+kcVideo : Failed to acquire filter graph interface
+
+//Bytes=32,Offset=0x005AFD34
+//kcVideo : フィルタ追加に失敗
+kcVideo : フィルタ追加に失敗
+kcVideo : Filter add failed
+
+//Bytes=60,Offset=0x005AFD54
+//kcVideo : フィルタグラフビルダインターフェイス取得に失敗
+kcVideo : フィルタグラフビルダインターフェイス取得に失敗
+kcVideo : Failed to acquire filter graph builder interface
+
+//Bytes=44,Offset=0x005AFD90
+//kcVideo : メディアコントロール取得に失敗
+kcVideo : メディアコントロール取得に失敗
+kcVideo : Failed to acquire media control
+
+//Bytes=40,Offset=0x005AFDBC
+//kcVideo : メディアイベント取得に失敗
+kcVideo : メディアイベント取得に失敗
+kcVideo : Failed to acquire media event
+
+//Bytes=28,Offset=0x005AFDE4
+//kcVideo : シーク取得に失敗
+kcVideo : シーク取得に失敗
+kcVideo : Didn't get seek
+
+//Bytes=36,Offset=0x005AFE00
+//kcVideo : オーディオ制御取得に失敗
+kcVideo : オーディオ制御取得に失敗
+kcVideo : Didn't get audio control
+
+//Bytes=44,Offset=0x005B02EC
+//入力管理クラスは複数インストール出来ません
+入力管理クラスは複数インストール出来ません
+Many input managements can't be installed
+
+//Bytes=40,Offset=0x005B0318
+//kcWndHookクラスは1つしか作成出来ません
+kcWndHookクラスは1つしか作成出来ません
+Only one kcWndHook class can be created
+
+//Bytes=16,Offset=0x005B0340
+//kcMenuWindow
+kcMenuWindow
+$nr$
+
+//Bytes=36,Offset=0x005B0350
+//kcInput : APIモードで起動されました
+kcInput : APIモードで起動されました
+kcInput : Started in API mode
+
+//Bytes=44,Offset=0x005B0374
+//kcInput : DirectInputモードはまだ未対応です
+kcInput : DirectInputモードはまだ未対応です
+kcInput : DirectInput mode is not supported
+
+//Bytes=48,Offset=0x005B03A0
+//kcInput : 未定義の動作モードが指定されました
+kcInput : 未定義の動作モードが指定されました
+kcInput : Undefined operation mode specified
+
+//Bytes=16,Offset=0x005B0814
+//ういんどみる
+ういんどみる
+Nibbles
+
+//Bytes=4,Offset=0x005B0824
+//CS2
+CS2
+$nr$
+
+//Bytes=28,Offset=0x005B0828
+//http://windmill.suki.jp/
+http://windmill.suki.jp/
+$nr$
+
+//Bytes=12,Offset=0x005B0844
+//main.kcs
+main.kcs
+$nr$
+
+//Bytes=4,Offset=0x005B0850
+//cs2
+cs2
+$nr$
+
+//Bytes=16,Offset=0x005B0854
+//ういんどみる
+ういんどみる
+Nibbles
+
+//Bytes=8,Offset=0x005B0864
+//imglib
+imglib
+$nr$
+
+//Bytes=4,Offset=0x005B086C
+//cs2
+cs2
+$nr$
+
+//Bytes=16,Offset=0x005B0870
+//ういんどみる
+ういんどみる
+Nibbles
+
+//Bytes=100,Offset=0x005B0A48
+//■■ システム情報 ■■\r\n\r\n Eメールでサポートを受ける時は、このファイルを添付してください。\r\n\r\n\r\n
+■■ システム情報 ■■\r\n\r\n Eメールでサポートを受ける時は、このファイルを添付してください。\r\n\r\n\r\n
+■■ System Information ■■\r\n\r\n Please attach this file when you receive support by e-mail.\r\n\r\n\r\n
+
+//Bytes=52,Offset=0x005B25E8
+//書き込み先ファイル[%s]のオープンに失敗しました。
+書き込み先ファイル[%s]のオープンに失敗しました。
+Failed to open the destination file [%s].
+
+//Bytes=40,Offset=0x005B261C
+//ファイル書き込み[%s]に失敗しました。
+ファイル書き込み[%s]に失敗しました。
+File write [%s] failed.
+
+//Bytes=24,Offset=0x005B2644
+//保存情報がありません。
+保存情報がありません。
+No save information.
+
+//Bytes=24,Offset=0x005B265C
+//保存情報がありません。
+保存情報がありません。
+No save information.
+
+//Bytes=48,Offset=0x005B2674
+//<?xml version="1.0" encoding="Shift_JIS"?>\r\n
+<?xml version="1.0" encoding="Shift_JIS"?>\r\n
+$nr$
+
+//Bytes=40,Offset=0x005B26A4
+//情報が破損している可能性があります。
+情報が破損している可能性があります。
+The information may be corrupted.
+
+//Bytes=8,Offset=0x005B26CC
+//<!--
+<!--
+$nr$
+
+//Bytes=4,Offset=0x005B26D4
+//-->
+-->
+$nr$
+
+//Bytes=4,Offset=0x005B26D8
+//<?
+<?
+$nr$
+
+//Bytes=4,Offset=0x005B26DC
+//?>
+?>
+$nr$
+
+//Bytes=4,Offset=0x005B26E0
+//xml
+xml
+$nr$
+
+//Bytes=8,Offset=0x005B26E4
+//version
+version
+$nr$
+
+//Bytes=4,Offset=0x005B26EC
+//1.0
+1.0
+$nr$
+
+//Bytes=12,Offset=0x005B26F0
+//encoding
+encoding
+$nr$
+
+//Bytes=12,Offset=0x005B26FC
+//Shift_JIS
+Shift_JIS
+$nr$
+
+//Bytes=24,Offset=0x005B2708
+//タグではありません。
+タグではありません。
+Not a tag.
+
+//Bytes=28,Offset=0x005B2720
+//タグ定義に誤りがあります。
+タグ定義に誤りがあります。
+Error in tag definition.
+
+//Bytes=20,Offset=0x005B273C
+//不正なタグです。
+不正なタグです。
+Invalid tag.
+
+//Bytes=28,Offset=0x005B2750
+//属性(%s)の値が不正です。
+属性(%s)の値が不正です。
+Attribute val (%s) invalid.
+
+//Bytes=28,Offset=0x005B276C
+//属性(%s)の値が不正です。
+属性(%s)の値が不正です。
+Attribute val (%s) invalid.
+
+//Bytes=28,Offset=0x005B2788
+//属性(%s)の値が不正です。
+属性(%s)の値が不正です。
+Attribute val (%s) invalid.
+
+//Bytes=4,Offset=0x005B27A4
+//>
+>
+$nr$
+
+//Bytes=4,Offset=0x005B27A8
+//<
+<
+$nr$
+
+//Bytes=4,Offset=0x005B27AC
+//>
+>
+$nr$
+
+//Bytes=4,Offset=0x005B27B0
+//<
+<
+$nr$
+
+//Bytes=28,Offset=0x005B27B4
+//タグ終端<%s>が不正です。
+タグ終端<%s>が不正です。
+Tag end <%s> is invalid.
+
+//Bytes=40,Offset=0x005B2844
+//ファイル %s のオープンに失敗しました。
+ファイル %s のオープンに失敗しました。
+Failed to open file %s.
+
+//Bytes=40,Offset=0x005B286C
+//ファイル %s の読み込みに失敗しました。
+ファイル %s の読み込みに失敗しました。
+Failed to read file %s.
+
+//Bytes=32,Offset=0x005B2894
+//読み込みバッファが無効です。
+読み込みバッファが無効です。
+The read buffer is invalid.
+
+//Bytes=40,Offset=0x005B28B4
+//読み込みできない形式のファイルです。
+読み込みできない形式のファイルです。
+This file cannot be read.
+
+//Bytes=16,Offset=0x005B2BC8
+//変数更新 : %d
+変数更新 : %d
+Var update : %d
+
+//Bytes=56,Offset=0x005B3480
+//kcFEScriptObjPlane : 参照カウンタがマイナスになりました
+kcFEScriptObjPlane : 参照カウンタがマイナスになりました
+kcFEScriptObjPlane : Ref counter has become negative
+
+//Bytes=60,Offset=0x005B3578
+//kcFEScriptObjParticle : 参照カウンタがマイナスになりました
+kcFEScriptObjParticle : 参照カウンタがマイナスになりました
+kcFEScriptObjParticle : Ref counter has become negative
+
+//Bytes=32,Offset=0x005B4324
+//#%s定義に不正があります。 : %s
+#%s定義に不正があります。 : %s
+#%s Invalid in definition. : %s
+
+//Bytes=16,Offset=0x005B4344
+//_PUSH_RIGHT_
+_PUSH_RIGHT_
+$nr$
+
+//Bytes=8,Offset=0x005B4354
+//oneshot
+oneshot
+$nr$
+
+//Bytes=16,Offset=0x005B435C
+//_RELEASE_UP_
+_RELEASE_UP_
+$nr$
+
+//Bytes=12,Offset=0x005B436C
+//continue
+continue
+$nr$
+
+//Bytes=16,Offset=0x005B4378
+//_RELEASE_DOWN_
+_RELEASE_DOWN_
+$nr$
+
+//Bytes=32,Offset=0x005B4388
+//未知のモーションタイプです : %s
+未知のモーションタイプです : %s
+Unknown motion type : %s
+
+//Bytes=12,Offset=0x005B43A8
+//SUBCOMMAND
+SUBCOMMAND
+$nr$
+
+//Bytes=16,Offset=0x005B43B4
+//_RELEASE_LEFT_
+_RELEASE_LEFT_
+$nr$
+
+//Bytes=32,Offset=0x005B43C4
+//#%s定義に不正があります。 : %s
+#%s定義に不正があります。 : %s
+#%s Invalid in definition. : %s
+
+//Bytes=12,Offset=0x005B43E4
+//SUBCOMMAND
+SUBCOMMAND
+$nr$
+
+//Bytes=16,Offset=0x005B43F0
+//_RELEASE_RIGHT_
+_RELEASE_RIGHT_
+$nr$
+
+//Bytes=32,Offset=0x005B4400
+//#%s定義に不正があります。 : %s
+#%s定義に不正があります。 : %s
+#%s Invalid in definition. : %s
+
+//Bytes=28,Offset=0x005B4518
+//未定義のパラメータです : %s
+未定義のパラメータです : %s
+Undefined parameters : %s
+
+//Bytes=32,Offset=0x005B464C
+//未定義のオブジェクトです > %s
+未定義のオブジェクトです > %s
+Undefined object > %s
+
+//Bytes=8,Offset=0x005B466C
+//DEFINE
+DEFINE
+$nr$
+
+//Bytes=8,Offset=0x005B4674
+//DEFINE
+DEFINE
+$nr$
+
+//Bytes=32,Offset=0x005B467C
+//#%s定義に不正があります。 : %s
+#%s定義に不正があります。 : %s
+#%s Invalid in definition. : %s
+
+//Bytes=40,Offset=0x005B469C
+//未定義のオブジェクトタイプです。 : %s
+未定義のオブジェクトタイプです。 : %s
+Undefined object type. : %s
+
+//Bytes=40,Offset=0x005B46C4
+//オブジェクト名に不正があります。 : %s
+オブジェクト名に不正があります。 : %s
+The object name is invalid. : %s
+
+//Bytes=40,Offset=0x005B46EC
+//オブジェクト名に不正があります。 : %s
+オブジェクト名に不正があります。 : %s
+The object name is invalid. : %s
+
+//Bytes=32,Offset=0x005B4714
+//配列数に不正があります。 : %s
+配列数に不正があります。 : %s
+Invalid array number. : %s
+
+//Bytes=8,Offset=0x005B4734
+//MACRO
+MACRO
+$nr$
+
+//Bytes=32,Offset=0x005B473C
+//オブジェクト名が不正です > %s
+オブジェクト名が不正です > %s
+Object name is invalid > %s
+
+//Bytes=8,Offset=0x005B475C
+//_LOAD_
+_LOAD_
+$nr$
+
+//Bytes=8,Offset=0x005B4764
+//_LOAD_
+_LOAD_
+$nr$
+
+//Bytes=12,Offset=0x005B476C
+//KEYBLOCK
+KEYBLOCK
+$nr$
+
+//Bytes=12,Offset=0x005B4778
+//_EXITCODE_
+_EXITCODE_
+$nr$
+
+//Bytes=12,Offset=0x005B4784
+//_CLICK_L_
+_CLICK_L_
+$nr$
+
+//Bytes=12,Offset=0x005B4790
+//_CLICK_R_
+_CLICK_R_
+$nr$
+
+//Bytes=12,Offset=0x005B479C
+//_SCRL_U_
+_SCRL_U_
+$nr$
+
+//Bytes=12,Offset=0x005B47A8
+//_SCRL_D_
+_SCRL_D_
+$nr$
+
+//Bytes=12,Offset=0x005B47B4
+//_PUSH_UP_
+_PUSH_UP_
+$nr$
+
+//Bytes=12,Offset=0x005B47C0
+//_PUSH_DOWN_
+_PUSH_DOWN_
+$nr$
+
+//Bytes=16,Offset=0x005B47CC
+//_PUSH_RIGHT_
+_PUSH_RIGHT_
+$nr$
+
+//Bytes=12,Offset=0x005B47DC
+//_PUSH_LEFT_
+_PUSH_LEFT_
+$nr$
+
+//Bytes=8,Offset=0x005B47E8
+//START
+START
+$nr$
+
+//Bytes=8,Offset=0x005B47F0
+//OBJECT
+OBJECT
+$nr$
+
+//Bytes=32,Offset=0x005B47F8
+//未定義のオブジェクトです > %s
+未定義のオブジェクトです > %s
+Undefined object > %s
+
+//Bytes=28,Offset=0x005B4818
+//パラメータが多すぎます > %s
+パラメータが多すぎます > %s
+Too many parameters > %s
+
+//Bytes=28,Offset=0x005B4834
+//未知のパラメータです > %s
+未知のパラメータです > %s
+Unknown parameter > %s
+
+//Bytes=52,Offset=0x005B4FB4
+//ファイル読み込みコールバックがセットされていません
+ファイル読み込みコールバックがセットされていません
+File read callback is not set
+
+//Bytes=28,Offset=0x005B4FE8
+//ファイル読み込みに失敗 (%s)
+ファイル読み込みに失敗 (%s)
+Failed to read file (%s)
+
+//Bytes=28,Offset=0x005B5004
+//ファイル読み込みに失敗 (%s)
+ファイル読み込みに失敗 (%s)
+Failed to read file (%s)
+
+//Bytes=4,Offset=0x005B5020
+//"
+"
+$nr$
+
+//Bytes=4,Offset=0x005B5024
+//"
+"
+$nr$
+
+//Bytes=4,Offset=0x005B5028
+//'
+'
+$nr$
+
+//Bytes=4,Offset=0x005B502C
+//'
+'
+$nr$
+
+//Bytes=4,Offset=0x005B5030
+//if(
+if(
+$nr$
+
+//Bytes=8,Offset=0x005B5034
+//if (
+if (
+$nr$
+
+//Bytes=4,Offset=0x005B503C
+//if(
+if(
+$nr$
+
+//Bytes=8,Offset=0x005B5040
+// if(
+ if(
+$nr$
+
+//Bytes=8,Offset=0x005B5048
+// if (
+ if (
+$nr$
+
+//Bytes=8,Offset=0x005B5050
+// if(
+ if(
+$nr$
+
+//Bytes=12,Offset=0x005B5058
+//#INCLUDE
+#INCLUDE
+$nr$
+
+//Bytes=52,Offset=0x005B5064
+//ファイル読み込みコールバックがセットされていません
+ファイル読み込みコールバックがセットされていません
+File read callback is not set
+
+//Bytes=28,Offset=0x005B5098
+//ファイル読み込みに失敗 (%s)
+ファイル読み込みに失敗 (%s)
+Failed to read file (%s)
+
+//Bytes=28,Offset=0x005B50B4
+//ファイル読み込みに失敗 (%s)
+ファイル読み込みに失敗 (%s)
+Failed to read file (%s)
+
